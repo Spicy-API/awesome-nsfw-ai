@@ -48,20 +48,21 @@
 
 ## 한눈에 보기: 상황별 추천
 
-| 이런 걸 하고 싶다면 | 여기서 시작하세요 | 이유 |
+| 이런 걸 하고 싶다면 | 여기서 시작하세요 | 이유 (SpicyAPI 리더보드, 2026-09-27) |
 |---|---|---|
-| 텍스트 투 비디오, 또는 내 캐릭터를 새 장면에 넣기 | [Seedance 2.5](https://spicyapi.ai/ko/models/seedance-2-5?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ko) 또는 [Wan 3.0](https://spicyapi.ai/ko/models/wan-3-0?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ko) | 카탈로그 등급 `unrestricted`인 표준 모델. T2V, I2V, 레퍼런스 투 비디오 지원 |
-| 스틸 이미지로 NSFW 영상을 저렴하게 만들기 | 🌶️ [Wan 2.2 Spicy](https://spicyapi.ai/ko/models/wan-2-2-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ko) 또는 [LTX 2.3 Spicy](https://spicyapi.ai/ko/models/ltx-2-3-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ko) | 480p 기준 결과물 1초당 $0.019부터 |
-| 품질이 가장 좋은 무검열 이미지 투 비디오 | 🌶️ [Seedance 2.5 Spicy](https://spicyapi.ai/ko/models/seedance-2-5-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ko) | 4–30초 클립, 네이티브 최대 1080p, 선택형 오디오 |
-| 내 LoRA로 무검열 영상 만들기 | 🌶️ [Wan 2.2 Spicy LoRA](https://spicyapi.ai/ko/models/wan-2-2-spicy-lora?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ko) | 한 번에 LoRA 최대 3개, 영상 연장(video-extend) 지원 |
-| 무검열 텍스트 투 이미지 모델 | [Qwen Image 2.1](https://spicyapi.ai/ko/models/qwen-image-2-1?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ko) | 이미지당 $0.024부터, 긴 프롬프트, 15가지 화면비, 레퍼런스 이미지 기반 편집 |
-| 애니 / 헨타이 스타일 스틸 이미지 | [Prefect Pony XL](https://spicyapi.ai/ko/models/prefect-pony-xl?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ko) 또는 셀프 호스팅 Pony / SDXL 체크포인트 | 태그 방식 프롬프트, 애니메이션 계열 |
-| 무검열 AI 이미지 편집기 | [Qwen Image 2.1 Edit](https://spicyapi.ai/ko/models/qwen-image-2-1?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ko) 또는 🌶️ [Qwen Image Edit Spicy](https://spicyapi.ai/ko/models/qwen-image-spicy-edit?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ko) | 레퍼런스 이미지 1–10장, 또는 이미지 1장 + 지시문 1개. 마스크 불필요 |
+| 전반적으로 가장 뛰어난 NSFW 영상 모델 | [Wan 3.0](https://spicyapi.ai/ko/models/wan-3-0?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ko) | Spicy Index 76.5(37개 중 2위), Freedom 96. 노골적 테스트 프롬프트를 모두 렌더링(9/9). T2V, I2V, 레퍼런스 투 비디오 최대 30초. 720p 5초당 $0.45 |
+| 나만의 스타일이나 캐릭터로 NSFW 영상 만들기 | [MiniMax H3 LoRA](https://spicyapi.ai/ko/models/minimax-h3-lora?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ko) 또는 [MiniMax H3 Singularity LoRA](https://spicyapi.ai/ko/models/minimax-h3-singularity-lora?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ko) | Spicy Index 75.2 / 72.8, Freedom 98.3 / 100 |
+| Spicy 에디션으로 노골적인 이미지 투 비디오 | 🌶️ [Seedance 2.5 Spicy](https://spicyapi.ai/ko/models/seedance-2-5-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ko), 🌶️ [Wan 2.7 Spicy](https://spicyapi.ai/ko/models/wan-2-7-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ko) 또는 🌶️ [Vidu Q3 Spicy](https://spicyapi.ai/ko/models/vidu-q3-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ko) | Freedom 96.7–100, 노골적 테스트 프롬프트를 모두 렌더링(3/3) |
+| NSFW 영상을 저렴하게 대량으로 만들기 | [Wan 2.6 Flash](https://spicyapi.ai/ko/models/wan-2-6-flash?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ko) 또는 🌶️ [Seedance 1.5 Pro Spicy](https://spicyapi.ai/ko/models/seedance-1-5-pro-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ko) | 5초당 $0.11–0.13(720p)에 Freedom 100 / 96.7 |
+| 무검열 텍스트 투 이미지 모델 | [Qwen Image 2.1](https://spicyapi.ai/ko/models/qwen-image-2-1?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ko) | Spicy Index 73, Freedom 96.3, 이미지당 $0.024부터. 긴 프롬프트, 15가지 화면비 |
+| 나만의 스타일로 이미지 만들기 (애니 포함) | [Qwen Image 2.1 LoRA](https://spicyapi.ai/ko/models/qwen-image-2-1-lora?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ko) 또는 [MiniMax H3 Image LoRA](https://spicyapi.ai/ko/models/minimax-h3-image-lora?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ko) | 이미지 Spicy Index 1위와 2위(80.5 / 74.5), Freedom 92 / 100 |
+| 무검열 AI 이미지 편집기 | [Qwen Image 2.1 Edit](https://spicyapi.ai/ko/models/qwen-image-2-1?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ko) | 위와 같은 모델 계열. 레퍼런스 이미지 1–10장 + 지시문 1개, 마스크 불필요 |
+| 무검열 채팅, 롤플레이, 프롬프트 작성 | [Grok 4.7](https://spicyapi.ai/ko/models/grok-4-7?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ko) 또는 [Grok 4.3](https://spicyapi.ai/ko/models/grok-4-3?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ko) | 텍스트 보드에서 Freedom 100 / 98.9. Grok 4.3이 가장 빠름(중앙값 약 4초) |
 | 전부 로컬에서 무료로 돌리기 | [ComfyUI](https://github.com/Comfy-Org/ComfyUI) + [Wan 2.2](https://github.com/Wan-Video/Wan2.2) 오픈 웨이트 | 고성능 GPU 필요 (VRAM 24 GB면 여유 있음) |
 | Claude Code / Cursor가 대신 생성하게 하기 | [nsfw-ai-skill](https://github.com/Spicy-API/nsfw-ai-skill/blob/main/README.ko.md) 또는 공식 [SpicyAPI MCP 서버](https://docs.spicyapi.ai/docs/mcp?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr) | 에이전트에서 자연어로 생성 |
 | 복사해서 바로 쓰는 검증된 프롬프트 | [nsfw-ai-video-prompts](https://github.com/Spicy-API/nsfw-ai-video-prompts/blob/main/README.ko.md) | 바로 쓸 수 있는 영상 프롬프트 116개와 프롬프트가 포함된 실제 결과물 사례 130개 |
 
-가격은 2026-09-27 기준 SpicyAPI 공개 카탈로그에 올라온 가장 낮은 등급입니다. 해상도가 높거나, 오디오가 있거나, 클립이 길면 더 비쌉니다. 작업을 실행하기 전에 모델 페이지를 확인하세요.
+점수는 공개된 [SpicyAPI 리더보드](https://spicyapi.ai/ko/leaderboards?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ko)에서 가져왔습니다(방법론 v2.1, 2026-09-14부터 2026-09-27까지 실시한 테스트. [모델 평가 방식](#이-목록의-모델-평가-방식) 참고). 가격은 카탈로그에 올라온 등급 기준이며, 해상도가 높거나, 오디오가 있거나, 클립이 길면 더 비쌉니다.
 
 ---
 
@@ -110,6 +111,16 @@ NSFW 요청이 통하는지는 세 가지가 결정하는데, 사람들이 이 �
 
 SpicyAPI 공개 카탈로그의 모든 모델에는 정책 등급(`unrestricted`, `softened`, `borderline`, `filtered`)이 붙어 있고, [리더보드](https://spicyapi.ai/ko/leaderboards?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=definitions-ko)에는 반복 테스트 프롬프트로 측정한 **Freedom Score**가 공개되어 있습니다. 플랫폼은 모델 위에 자체 필터를 추가하지 않으며, 필터링이 있다면 모델 제공업체 쪽에서 오는 것입니다.
 
+### 이 목록의 모델 평가 방식
+
+이 목록의 추천은 마케팅 문구가 아니라 SpicyAPI가 공개한 테스트 결과를 따릅니다.
+
+- **Freedom Score (0–100)**: 성인용 프롬프트가 요구한 내용을 모델이 얼마나 안정적으로 렌더링하는지를 다섯 단계에 걸쳐 측정합니다. L1 암시적 표현, L2 부분 노출, L3 노출, L4 노골적 표현, L5 극단적 표현(BDSM / 고어). 단계마다 20점 × 통과율 × 신뢰도로 점수를 매기므로, 순화되거나 다른 이미지로 바꿔치기된 결과물은 점수가 깎입니다. ✅ 90 이상 · ◐ 70–89 · ⚠️ 70 미만 · 🧪 지금까지 테스트 실행이 15회 미만이므로, 낮은 숫자는 거부가 아니라 테스트 범위가 부족하다는 뜻입니다.
+- **Spicy Index (0–100)**: 현재는 *잠정* 점수로, 공개 사양(네이티브 해상도, 최장 클립 길이, 오디오, 입력 방식 등)을 바탕으로 한 성능 점수입니다. 아레나 품질 투표가 아직 반영되지 않아 시각적 품질은 아직 측정하지 않습니다.
+- **엔지니어링 경로 점검**: 모델을 목록에 올리기 전에 팀이 모든 업스트림 경로에서 노골적인 테스트 케이스를 생성하고, 다운로드한 결과물을 프레임 단위로 검사합니다(일부 제공업체는 안전한 이미지로 몰래 바꿔 보내기 때문에 "성공" 상태만으로는 부족합니다). 일부 경로에서만 노골적인 콘텐츠를 렌더링하는 모델은 여기서 추천하지 않습니다.
+
+모델별 전체 리포트와 단계별 실행 횟수: [SpicyAPI 리더보드](https://spicyapi.ai/ko/leaderboards?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=method-ko). L4/L5 테스트 결과물은 절대 공개하지 않습니다.
+
 ---
 
 ## 무검열 AI 영상 생성기
@@ -123,98 +134,118 @@ SpicyAPI 카탈로그와 같은 순서입니다. 인기순이며, 같은 계열 
 <!-- /catalog:date -->
 
 <!-- catalog:video -->
-| 모델 | 유형 | 작업 | 길이 | 최저가 |
-|---|---|---|---|---|
-| [Seedance 2.5 Spicy](https://spicyapi.ai/ko/models/seedance-2-5-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 🌶️ Spicy | I2V | 4–30 s | $0.216/s |
-| [Seedance 2.5](https://spicyapi.ai/ko/models/seedance-2-5?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | I2V, Ref2V, T2V | 4–30 s | $0.1234/s |
-| [Seedance 2.0 Spicy](https://spicyapi.ai/ko/models/seedance-2-0-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 🌶️ Spicy | I2V | 4–15 s | $0.114/s |
-| [Seedance 2.0](https://spicyapi.ai/ko/models/seedance-2-0?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | I2V, Ref2V, T2V | 4–15 s | $0.07/s |
-| [Wan 3.0 Prime](https://spicyapi.ai/ko/models/wan-3-0-prime?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | I2V, Ref2V, T2V | 2–30 s | $0.0612/s |
-| [Wan 3.0](https://spicyapi.ai/ko/models/wan-3-0?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | I2V, Ref2V, T2V | 2–30 s | $0.045/s |
-| [MiniMax H3 Spicy](https://spicyapi.ai/ko/models/minimax-h3-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 🌶️ Spicy | I2V | 3–15 s | $0.038/s |
-| [MiniMax H3](https://spicyapi.ai/ko/models/minimax-h3?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | I2V, Ref2V, T2V | 4–15 s | $0.025/s |
-| [MiniMax H3 Singularity LoRA](https://spicyapi.ai/ko/models/minimax-h3-singularity-lora?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | I2V, Ref2V | 3–15 s | $0.06/s |
-| [LTX 2.5](https://spicyapi.ai/ko/models/ltx-2-5?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | I2V, T2V | 5–20 s | $0.09/s |
-| [Wan 3.0 Pro Prime](https://spicyapi.ai/ko/models/wan-3-0-pro-prime?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | I2V, Ref2V, T2V | 2–30 s | $0.234/s |
-| [Wan 3.0 Pro](https://spicyapi.ai/ko/models/wan-3-0-pro?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | I2V, Ref2V, T2V | 2–30 s | $0.144/s |
-| [MiniMax H3 LoRA](https://spicyapi.ai/ko/models/minimax-h3-lora?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | I2V, Ref2V, T2V | 3–15 s | $0.05/s |
-| [HappyHorse 1.1](https://spicyapi.ai/ko/models/happyhorse-1-1?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | I2V, Ref2V, T2V | 3–15 s | $0.14/s |
-| [Seedance 2.0 Mini Spicy](https://spicyapi.ai/ko/models/seedance-2-0-mini-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 🌶️ Spicy | I2V | 4–15 s | $0.0387/s |
-| [Seedance 2.0 Mini](https://spicyapi.ai/ko/models/seedance-2-0-mini?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | I2V, Ref2V, T2V | 4–15 s | $0.01097/s |
-| [Wan 2.7 Spicy](https://spicyapi.ai/ko/models/wan-2-7-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 🌶️ Spicy | I2V | 2–15 s | $0.1235/s |
-| [LTX 2.3 Spicy](https://spicyapi.ai/ko/models/ltx-2-3-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 🌶️ Spicy | I2V | 3–20 s | $0.019/s |
-| [LTX 2.3 Spicy LoRA](https://spicyapi.ai/ko/models/ltx-2-3-spicy-lora?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 🌶️ Spicy | I2V | 3–20 s | $0.0285/s |
-| [Seedance 2.0 Fast Spicy](https://spicyapi.ai/ko/models/seedance-2-0-fast-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 🌶️ Spicy | I2V | 4–15 s | $0.081/s |
-| [Seedance 2.0 Fast](https://spicyapi.ai/ko/models/seedance-2-0-fast?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | I2V, Ref2V, T2V | 4–15 s | $0.02254/s |
-| [Vidu Q3 Turbo](https://spicyapi.ai/ko/models/vidu-q3-turbo?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | I2V | 1–16 s | $0.042/s |
-| [Vidu Q3 Spicy](https://spicyapi.ai/ko/models/vidu-q3-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 🌶️ Spicy | I2V | 1–16 s | $0.0665/s |
-| [Vidu Q3](https://spicyapi.ai/ko/models/vidu-q3?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | I2V | 1–16 s | $0.07/s |
-| [Vidu Q3 Pro](https://spicyapi.ai/ko/models/vidu-q3-pro?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | I2V | 1–16 s | $0.054/s |
-| [Seedance 1.5 Pro Spicy](https://spicyapi.ai/ko/models/seedance-1-5-pro-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 🌶️ Spicy | I2V | 4–12 s | $0.012/s |
-| [Seedance 1.5 Pro](https://spicyapi.ai/ko/models/seedance-1-5-pro?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | I2V, T2V | 4–12 s | $0.0112/s |
-| [Wan 2.6 Flash](https://spicyapi.ai/ko/models/wan-2-6-flash?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | I2V | 5, 10, 15 s | $0.0225/s |
-| [Wan 2.6 Spicy](https://spicyapi.ai/ko/models/wan-2-6-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 🌶️ Spicy | I2V | 5, 10, 15 s | $0.095/s |
-| [Wan 2.6](https://spicyapi.ai/ko/models/wan-2-6?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | I2V, Ref2V, T2V | 5, 10, 15 s | $0.065/s |
-| [Wan 2.5](https://spicyapi.ai/ko/models/wan-2-5?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | I2V, T2V | 5, 10 s | $0.045/s |
-| [Wan 2.2 Spicy](https://spicyapi.ai/ko/models/wan-2-2-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 🌶️ Spicy | I2V | 5, 8 s | $0.019/s |
-| [Wan 2.2 Spicy LoRA](https://spicyapi.ai/ko/models/wan-2-2-spicy-lora?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 🌶️ Spicy | I2V, Extend | 5, 8 s | $0.024/s |
-| [Wan 2.2 LoRA](https://spicyapi.ai/ko/models/wan-2-2-lora?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | I2V | 5, 8 s | $0.024/s |
+| 모델 | 유형 | 작업 | 길이 | 최저가 | Spicy Index | Freedom |
+|---|---|---|---|---|---|---|
+| [Seedance 2.5 Spicy](https://spicyapi.ai/ko/models/seedance-2-5-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 🌶️ Spicy | I2V | 4–30 s | $0.216/s | 56.5 | ✅ 96.7 |
+| [Seedance 2.5](https://spicyapi.ai/ko/models/seedance-2-5?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | I2V, Ref2V, T2V | 4–30 s | $0.1234/s | 69.5 | ◐ 80.9 |
+| [Seedance 2.0 Spicy](https://spicyapi.ai/ko/models/seedance-2-0-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 🌶️ Spicy | I2V | 4–15 s | $0.114/s | 61.5 | ✅ 93.3 |
+| [Seedance 2.0](https://spicyapi.ai/ko/models/seedance-2-0?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | I2V, Ref2V, T2V | 4–15 s | $0.07/s | 81.5 | ◐ 70.4 |
+| [Wan 3.0 Prime](https://spicyapi.ai/ko/models/wan-3-0-prime?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | I2V, Ref2V, T2V | 2–30 s | $0.0612/s | 76.5 | ◐ 78 |
+| [Wan 3.0](https://spicyapi.ai/ko/models/wan-3-0?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | I2V, Ref2V, T2V | 2–30 s | $0.045/s | 76.5 | ✅ 96 |
+| [MiniMax H3 Spicy](https://spicyapi.ai/ko/models/minimax-h3-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 🌶️ Spicy | I2V | 3–15 s | $0.038/s | 29.5 | ✅ 97.5 |
+| [MiniMax H3](https://spicyapi.ai/ko/models/minimax-h3?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | I2V, Ref2V, T2V | 4–15 s | $0.025/s | 72.5 | 🧪 33.3 |
+| [MiniMax H3 Singularity LoRA](https://spicyapi.ai/ko/models/minimax-h3-singularity-lora?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | I2V, Ref2V | 3–15 s | $0.06/s | 72.8 | ✅ 100 |
+| [LTX 2.5](https://spicyapi.ai/ko/models/ltx-2-5?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | I2V, T2V | 5–20 s | $0.09/s | 66 | ◐ 80.3 |
+| [Wan 3.0 Pro Prime](https://spicyapi.ai/ko/models/wan-3-0-pro-prime?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | I2V, Ref2V, T2V | 2–30 s | $0.234/s | 76.5 | ◐ 82 |
+| [Wan 3.0 Pro](https://spicyapi.ai/ko/models/wan-3-0-pro?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | I2V, Ref2V, T2V | 2–30 s | $0.144/s | 76.5 | ◐ 82 |
+| [MiniMax H3 LoRA](https://spicyapi.ai/ko/models/minimax-h3-lora?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | I2V, Ref2V, T2V | 3–15 s | $0.05/s | 75.2 | ✅ 98.3 |
+| [HappyHorse 1.1](https://spicyapi.ai/ko/models/happyhorse-1-1?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | I2V, Ref2V, T2V | 3–15 s | $0.14/s | 62.5 | ⚠️ 65.1 |
+| [Seedance 2.0 Mini Spicy](https://spicyapi.ai/ko/models/seedance-2-0-mini-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 🌶️ Spicy | I2V | 4–15 s | $0.0387/s | 44.5 | ✅ 93.3 |
+| [Seedance 2.0 Mini](https://spicyapi.ai/ko/models/seedance-2-0-mini?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | I2V, Ref2V, T2V | 4–15 s | $0.01097/s | 64.5 | ⚠️ 64.9 |
+| [Wan 2.7 Spicy](https://spicyapi.ai/ko/models/wan-2-7-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 🌶️ Spicy | I2V | 2–15 s | $0.1235/s | 46.5 | ✅ 100 |
+| [LTX 2.3 Spicy](https://spicyapi.ai/ko/models/ltx-2-3-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 🌶️ Spicy | I2V | 3–20 s | $0.019/s | 33.5 | ◐ 89.2 |
+| [LTX 2.3 Spicy LoRA](https://spicyapi.ai/ko/models/ltx-2-3-spicy-lora?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 🌶️ Spicy | I2V | 3–20 s | $0.0285/s | 34.8 | ◐ 83.8 |
+| [Seedance 2.0 Fast Spicy](https://spicyapi.ai/ko/models/seedance-2-0-fast-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 🌶️ Spicy | I2V | 4–15 s | $0.081/s | 44.5 | ✅ 90 |
+| [Seedance 2.0 Fast](https://spicyapi.ai/ko/models/seedance-2-0-fast?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | I2V, Ref2V, T2V | 4–15 s | $0.02254/s | 64.5 | ⚠️ 68.2 |
+| [Vidu Q3 Turbo](https://spicyapi.ai/ko/models/vidu-q3-turbo?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | I2V | 1–16 s | $0.042/s | 39.5 | ✅ 93.3 |
+| [Vidu Q3 Spicy](https://spicyapi.ai/ko/models/vidu-q3-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 🌶️ Spicy | I2V | 1–16 s | $0.0665/s | 46.5 | ✅ 96.7 |
+| [Vidu Q3](https://spicyapi.ai/ko/models/vidu-q3?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | I2V | 1–16 s | $0.07/s | 46.5 | ✅ 93.3 |
+| [Vidu Q3 Pro](https://spicyapi.ai/ko/models/vidu-q3-pro?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | I2V | 1–16 s | $0.054/s | 36.5 | ✅ 93.3 |
+| [Seedance 1.5 Pro Spicy](https://spicyapi.ai/ko/models/seedance-1-5-pro-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 🌶️ Spicy | I2V | 4–12 s | $0.012/s | 48.5 | ✅ 96.7 |
+| [Seedance 1.5 Pro](https://spicyapi.ai/ko/models/seedance-1-5-pro?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | I2V, T2V | 4–12 s | $0.0112/s | 46 | ✅ 90 |
+| [Wan 2.6 Flash](https://spicyapi.ai/ko/models/wan-2-6-flash?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | I2V | 5, 10, 15 s | $0.0225/s | 31.5 | ✅ 100 |
+| [Wan 2.6 Spicy](https://spicyapi.ai/ko/models/wan-2-6-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 🌶️ Spicy | I2V | 5, 10, 15 s | $0.095/s | 46.5 | ✅ 96.7 |
+| [Wan 2.6](https://spicyapi.ai/ko/models/wan-2-6?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | I2V, Ref2V, T2V | 5, 10, 15 s | $0.065/s | 58.5 | 🧪 8.7 |
+| [Wan 2.5](https://spicyapi.ai/ko/models/wan-2-5?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | I2V, T2V | 5, 10 s | $0.045/s | 46 | ✅ 99 |
+| [Wan 2.2 Spicy](https://spicyapi.ai/ko/models/wan-2-2-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 🌶️ Spicy | I2V | 5, 8 s | $0.019/s | 23.5 | ✅ 91.2 |
+| [Wan 2.2 Spicy LoRA](https://spicyapi.ai/ko/models/wan-2-2-spicy-lora?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 🌶️ Spicy | I2V, Extend | 5, 8 s | $0.024/s | 25 | ◐ 74.8 |
+| [Wan 2.2 LoRA](https://spicyapi.ai/ko/models/wan-2-2-lora?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | I2V | 5, 8 s | $0.024/s | 22.5 | ◐ 88.8 |
 <!-- /catalog:video -->
 
-간단한 가이드:
+테스트 기반 추천(노골적 = 요청한 대로 렌더링된 L4 테스트 프롬프트 수):
 
-- **최고 품질:** Seedance 2.5 Spicy(최대 30초), 그다음 Seedance 2.0 Spicy. 같은 수준의 품질로 텍스트 투 비디오나 레퍼런스 투 비디오를 하려면 표준 Seedance 2.5 / Seedance 2.0을 쓰세요.
-- **최신 Wan:** T2V, I2V, Ref2V를 최대 30초까지 하려면 Wan 3.0(그리고 Prime / Pro 등급). 성인 콘텐츠용으로 튜닝된 이미지 투 비디오는 Wan 2.7 Spicy와 Wan 2.6 Spicy.
-- **가장 저렴한 초안용:** Seedance 1.5 Pro Spicy가 초당 $0.012부터, Wan 2.2 Spicy와 LTX 2.3 Spicy가 초당 $0.019부터.
-- **내 LoRA 사용:** Wan 2.2 Spicy LoRA(`video-extend` 포함), LTX 2.3 Spicy LoRA, MiniMax H3 LoRA.
+- **전반적 최고: Wan 3.0.** Spicy Index 76.5, Freedom 96, 노골적 9/9, 720p 5초당 $0.45, 최대 30초 클립. Wan 3.0 Pro와 Pro Prime도 노골적 프롬프트를 렌더링하지만(9/9) Freedom 점수는 더 낮으며(82), 대부분 극단적 단계(L5)에서 점수가 깎였습니다.
+- **커스텀 스타일과 캐릭터: MiniMax H3 LoRA**(Index 75.2, Freedom 98.3, 노골적 11/13)와 **MiniMax H3 Singularity LoRA**(Index 72.8, Freedom 100, 노골적 8/8).
+- **성인 콘텐츠용 Seedance: Seedance 2.5**(Index 69.5, Freedom 80.9, 노골적 8/9)는 텍스트 투 비디오와 레퍼런스 투 비디오용입니다. 노골적인 이미지 투 비디오에는 🌶️ **Seedance 2.5 Spicy** 에디션을 쓰세요(Freedom 96.7, 노골적 3/3).
+- **가장 허용적인 모델: Wan 2.7 Spicy, Wan 2.6 Flash, MiniMax H3 Singularity LoRA**(Freedom 100), **Wan 2.5**(99).
+- **저예산: Wan 2.6 Flash**(5초당 $0.11, Freedom 100), 🌶️ **Seedance 1.5 Pro Spicy**($0.13, Freedom 96.7), **MiniMax H3**(768p 5초당 $0.185. 테스트 클립 14개가 모두 요청대로 나왔으며, Freedom 수치가 낮은 것은 아직 테스트하지 않은 단계가 있기 때문일 뿐입니다). 🌶️ Wan 2.2 Spicy와 LTX 2.3 Spicy는 $0.19이지만 최상위 단계를 순화하는 경우가 더 잦습니다.
+- **테스트에서 노골적 프롬프트를 순화한 모델:** 같은 계열의 Spicy 에디션을 대신 쓰세요. 표준 Seedance 2.0(Freedom 70.4, 노골적 1/9. 영상 모델 중 성능 점수가 가장 높아서 암시적인 수위의 작업에는 매우 좋습니다), Seedance 2.0 Fast / Mini(68.2 / 64.9), HappyHorse 1.1(65.1), Wan 2.2(43.1).
+- **아직 테스트 데이터가 부족한 모델:** 표준 Wan 2.6(5회 실행). 🌶️ Wan 2.6 Spicy 에디션은 테스트를 모두 마쳤습니다(Freedom 96.7).
+- **리뷰에서 경고하는 점:** Wan 3.0은 가끔 프롬프트보다 수위를 더 높이고(마지막 몇 초를 확인하세요), 작업 하나에 약 3.5분이 걸리며, 레퍼런스 투 비디오에서는 실제 얼굴 사진을 거부합니다. Seedance 2.5는 긴 스크립트를 가장 충실하게 따르고, Seedance 2.5 Spicy는 가장 높은 단계에서 더 과감하게 표현합니다.
 
 일부 영상 엔드포인트는 정해진 블록 단위로 과금합니다(예를 들어 5초 블록 단위 모델에서 6초 클립을 만들면 10초로 과금). 블록 길이는 모델 페이지에 나와 있으며, 견적 금액이 청구될 수 있는 최대 금액입니다. 전체 모델은 [SpicyAPI › 무검열 AI 모델](https://spicyapi.ai/ko/explore/uncensored-ai-models?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=video-table-ko)에서 둘러보고 필터링할 수 있습니다.
 
 ### NSFW 영상 5초 생성 비용
 
-가장 낮은 등급 가격 × 5초, 2026-09-27 기준 SpicyAPI 카탈로그. 견적이 아니라 최저 금액으로 보세요.
+720p 5초 클립 1개(MiniMax는 768p)의 비용을 2026-09-27 리더보드 가격 축 기준으로 Freedom Score와 함께 정리했습니다. 해상도가 낮으면 더 저렴합니다.
 
-| 모델 | 클립 1개 (5초) | 클립 100개 | 클립 1,000개 |
-|---|---|---|---|
-| Seedance 1.5 Pro Spicy (480p, 오디오 없음) | $0.06 | $6.00 | $60 |
-| Wan 2.2 Spicy (480p) | $0.095 | $9.50 | $95 |
-| LTX 2.3 Spicy (480p) | $0.095 | $9.50 | $95 |
-| MiniMax H3 Spicy (480p) | $0.19 | $19.00 | $190 |
-| Seedance 2.0 Mini Spicy (480p) | $0.19 | $19.35 | $193.50 |
-| Wan 2.6 Spicy (720p) | $0.475 | $47.50 | $475 |
-| Seedance 2.0 Spicy (480p) | $0.57 | $57.00 | $570 |
-| Seedance 2.5 Spicy (480p) | $1.08 | $108.00 | $1,080 |
+| 모델 | 클립 1개 (5초) | 클립 100개 | 클립 1,000개 | Freedom |
+|---|---|---|---|---|
+| Wan 2.6 Flash | $0.11 | $11.25 | $112.50 | ✅ 100 |
+| 🌶️ Seedance 1.5 Pro Spicy | $0.13 | $13.00 | $130 | ✅ 96.7 |
+| MiniMax H3 | $0.185 | $18.50 | $185 | 🧪 33.3 (클립 14/14개가 요청대로 생성) |
+| 🌶️ Wan 2.2 Spicy | $0.19 | $19.00 | $190 | ✅ 91.2 |
+| 🌶️ LTX 2.3 Spicy | $0.19 | $19.00 | $190 | ◐ 89.2 |
+| 🌶️ MiniMax H3 Spicy | $0.42 | $42.00 | $420 | ✅ 97.5 |
+| Wan 3.0 | $0.45 | $45.00 | $450 | ✅ 96 |
+| Wan 2.5 | $0.45 | $45.00 | $450 | ✅ 99 |
+| 🌶️ Wan 2.6 Spicy | $0.475 | $47.50 | $475 | ✅ 96.7 |
+| MiniMax H3 LoRA | $0.50 | $50.00 | $500 | ✅ 98.3 |
+| 🌶️ Wan 2.7 Spicy | $0.62 | $61.75 | $617.50 | ✅ 100 |
+| MiniMax H3 Singularity LoRA | $0.63 | $62.50 | $625 | ✅ 100 |
+| 🌶️ Vidu Q3 Spicy | $0.71 | $71.25 | $712.50 | ✅ 96.7 |
+| 🌶️ Seedance 2.0 Spicy | $1.14 | $114.00 | $1,140 | ✅ 93.3 |
+| Seedance 2.5 | $1.39 | $138.65 | $1,386.50 | ◐ 80.9 |
+| 🌶️ Seedance 2.5 Spicy | $2.16 | $216.00 | $2,160 | ✅ 96.7 |
 
-Wan 2.2 Spicy는 720p에서 초당 $0.038이므로, 720p 5초 클립은 $0.19입니다. 실패한 작업은 자동으로 환불됩니다.
+이 모델들 대부분은 480p가 대략 절반 가격입니다(예를 들어 5초당 Wan 2.2 Spicy $0.095, Seedance 1.5 Pro Spicy $0.06). 실패한 작업은 자동으로 환불됩니다.
 
 ---
 
 ## 무검열 AI 이미지 생성기
 
-**추천: [Qwen Image 2.1](https://spicyapi.ai/ko/models/qwen-image-2-1?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=image-pick-ko)** (카탈로그 등급 `unrestricted`, 1k 기준 이미지당 $0.024부터). 긴 브리프(최대 5,000자)를 잘 따르고, 1k, 1.5k, 2k 해상도에서 15가지 화면비를 지원하며, 같은 모델 계열에서 레퍼런스 이미지 1–10장으로 편집도 할 수 있습니다. [Qwen Image 2.1 LoRA](https://spicyapi.ai/ko/models/qwen-image-2-1-lora?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=image-pick-ko)를 쓰면 직접 준비한 LoRA를 최대 3개까지 붙여 스타일이나 캐릭터를 일관되게 유지할 수 있습니다.
+**추천: [Qwen Image 2.1](https://spicyapi.ai/ko/models/qwen-image-2-1?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=image-pick-ko)**: Spicy Index 73, Freedom 96.3(노골적 5/6), 1k 기준 이미지당 $0.024부터. 긴 브리프(최대 5,000자)를 잘 따르고, 1k, 1.5k, 2k 해상도에서 15가지 화면비를 지원하며, 같은 모델 계열에서 레퍼런스 이미지 1–10장으로 편집도 할 수 있습니다.
+
+그 밖의 테스트 기반 추천:
+
+- **나만의 스타일이나 캐릭터 (애니 포함): [Qwen Image 2.1 LoRA](https://spicyapi.ai/ko/models/qwen-image-2-1-lora?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=image-pick-ko)**: 이미지 Spicy Index 1위(80.5), Freedom 92, LoRA 최대 3개. **[MiniMax H3 Image LoRA](https://spicyapi.ai/ko/models/minimax-h3-image-lora?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=image-pick-ko)**: Index 74.5, Freedom 100(노골적 8/8), MiniMax H3 영상과 짝을 맞추기 좋습니다.
+- **Seedream: [Seedream 5.0 Lite](https://spicyapi.ai/ko/models/seedream-5-0-lite?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=image-pick-ko) / [Seedream 5.0 Pro](https://spicyapi.ai/ko/models/seedream-5-0-pro?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=image-pick-ko)**: Index 73, Freedom 96 / 94.3. Seedream 4.0은 성능 점수(74)는 높지만 Freedom(74.7)은 더 낮습니다.
+- **이미지 속 텍스트 (포스터, 표지): [Qwen Image 3.0 Pro](https://spicyapi.ai/ko/models/qwen-image-3-0-pro?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=image-pick-ko)**: Freedom 98, 노골적 6/6.
+- **가장 저렴: 🌶️ [Z-Image Spicy](https://spicyapi.ai/ko/models/z-image-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=image-pick-ko)** ($0.01235, Freedom 98.8)와 [Z-Image Turbo LoRA](https://spicyapi.ai/ko/models/z-image-turbo-lora?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=image-pick-ko)($0.012, Freedom 95). 성능 점수가 더 낮으므로(32 / 46.5) 대량 생성과 초안용으로 쓰세요.
+- **NSFW에는 비추천:** Krea 2(Freedom 10), Wan 2.7 / Wan 2.7 Pro 텍스트 투 이미지(노출과 노골적 단계를 대부분 순화), FLUX.1 Dev LoRA(75, 노골적 0/6). Prefect Pony XL은 지금까지 테스트 실행이 3회뿐입니다(Freedom 36). 테스트를 거친 NSFW 추천이 아니라 태그 프롬프트 방식의 애니 선택지로 보세요.
 
 무검열 이미지 모델 전체 목록 (카탈로그 순서):
 
 <!-- catalog:image -->
-| 모델 | 유형 | 작업 | 최저가 |
-|---|---|---|---|
-| [Qwen Image 2.1](https://spicyapi.ai/ko/models/qwen-image-2-1?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | Edit, T2I | $0.024/image |
-| [Qwen Image 2.1 LoRA](https://spicyapi.ai/ko/models/qwen-image-2-1-lora?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | Edit, T2I | $0.03/image |
-| [MiniMax H3 Image LoRA](https://spicyapi.ai/ko/models/minimax-h3-image-lora?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | Edit, T2I | $0.042/image |
-| [Qwen Image 3.0 Pro](https://spicyapi.ai/ko/models/qwen-image-3-0-pro?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | Edit, T2I | $0.04/image |
-| [Qwen Image 3.0](https://spicyapi.ai/ko/models/qwen-image-3-0?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | Edit, T2I | $0.03/image |
-| [Seedream 5.0 Pro](https://spicyapi.ai/ko/models/seedream-5-0-pro?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | Edit, T2I | $0.036/image |
-| [Qwen Image Edit Spicy](https://spicyapi.ai/ko/models/qwen-image-spicy-edit?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 🌶️ Spicy | Edit | $0.038/image |
-| [Seedream 5.0 Lite](https://spicyapi.ai/ko/models/seedream-5-0-lite?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | Edit, T2I | $0.0345/image |
-| [Qwen Image 2](https://spicyapi.ai/ko/models/alibaba-qwen-image-2?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | Edit, T2I | $0.035/image |
-| [Qwen Image 2512 LoRA](https://spicyapi.ai/ko/models/qwen-image-2512-lora?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | Edit, T2I | $0.03/image |
-| [Z-Image Spicy Pro](https://spicyapi.ai/ko/models/z-image-spicy-pro?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 🌶️ Spicy | T2I | $0.019/image |
-| [Z-Image Spicy](https://spicyapi.ai/ko/models/z-image-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 🌶️ Spicy | T2I | $0.01235/image |
-| [Z-Image](https://spicyapi.ai/ko/models/z-image?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | T2I | $0.01/image |
-| [Z-Image Turbo LoRA](https://spicyapi.ai/ko/models/z-image-turbo-lora?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | Edit, T2I | $0.012/image |
-| [Seedream 4.0](https://spicyapi.ai/ko/models/seedream-4-0?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | Edit, T2I | $0.03/image |
-| [Prefect Pony XL](https://spicyapi.ai/ko/models/prefect-pony-xl?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | T2I | $0.015/image |
-| [FLUX.1 Dev LoRA](https://spicyapi.ai/ko/models/flux-1-dev-lora?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | T2I | $0.018/image |
+| 모델 | 유형 | 작업 | 최저가 | Spicy Index | Freedom |
+|---|---|---|---|---|---|
+| [Qwen Image 2.1](https://spicyapi.ai/ko/models/qwen-image-2-1?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | Edit, T2I | $0.024/image | 73 | ✅ 96.3 |
+| [Qwen Image 2.1 LoRA](https://spicyapi.ai/ko/models/qwen-image-2-1-lora?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | Edit, T2I | $0.03/image | 80.5 | ✅ 92 |
+| [MiniMax H3 Image LoRA](https://spicyapi.ai/ko/models/minimax-h3-image-lora?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | Edit, T2I | $0.042/image | 74.5 | ✅ 100 |
+| [Qwen Image 3.0 Pro](https://spicyapi.ai/ko/models/qwen-image-3-0-pro?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | Edit, T2I | $0.04/image | 56 | ✅ 98 |
+| [Qwen Image 3.0](https://spicyapi.ai/ko/models/qwen-image-3-0?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | Edit, T2I | $0.03/image | 56 | ✅ 96 |
+| [Seedream 5.0 Pro](https://spicyapi.ai/ko/models/seedream-5-0-pro?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | Edit, T2I | $0.036/image | 73 | ✅ 94.3 |
+| [Qwen Image Edit Spicy](https://spicyapi.ai/ko/models/qwen-image-spicy-edit?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 🌶️ Spicy | Edit | $0.038/image | 14 | ✅ 96 |
+| [Seedream 5.0 Lite](https://spicyapi.ai/ko/models/seedream-5-0-lite?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | Edit, T2I | $0.0345/image | 73 | ✅ 96 |
+| [Qwen Image 2](https://spicyapi.ai/ko/models/alibaba-qwen-image-2?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | Edit, T2I | $0.035/image | 34 | ✅ 96.7 |
+| [Qwen Image 2512 LoRA](https://spicyapi.ai/ko/models/qwen-image-2512-lora?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | Edit, T2I | $0.03/image | 50.5 | ✅ 92.5 |
+| [Z-Image Spicy Pro](https://spicyapi.ai/ko/models/z-image-spicy-pro?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 🌶️ Spicy | T2I | $0.019/image | 38 | ✅ 100 |
+| [Z-Image Spicy](https://spicyapi.ai/ko/models/z-image-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 🌶️ Spicy | T2I | $0.01235/image | 32 | ✅ 98.8 |
+| [Z-Image](https://spicyapi.ai/ko/models/z-image?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | T2I | $0.01/image | 17 | ✅ 100 |
+| [Z-Image Turbo LoRA](https://spicyapi.ai/ko/models/z-image-turbo-lora?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | Edit, T2I | $0.012/image | 46.5 | ✅ 95 |
+| [Seedream 4.0](https://spicyapi.ai/ko/models/seedream-4-0?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | Edit, T2I | $0.03/image | 74 | ◐ 74.7 |
+| [Prefect Pony XL](https://spicyapi.ai/ko/models/prefect-pony-xl?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | T2I | $0.015/image | 30 | 🧪 36 |
+| [FLUX.1 Dev LoRA](https://spicyapi.ai/ko/models/flux-1-dev-lora?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=model-table-ko) | 표준 | T2I | $0.018/image | 32.5 | ◐ 75 |
 <!-- /catalog:image -->
 
 코드 없이 쓰는 방법: [SpicyAPI Studio의 무검열 AI 이미지 생성기](https://spicyapi.ai/ko/create/uncensored-ai-image-generator?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=image-studio-ko)는 같은 모델을 브라우저에서 실행하며, 스타일과 화면비를 고를 수 있고 생성 전에 가격을 보여 줍니다.
@@ -228,7 +259,7 @@ Wan 2.2 Spicy는 720p에서 초당 $0.038이므로, 720p 5초 클립은 $0.19입
 | 도구 | 기능 | 가격 |
 |---|---|---|
 | [Qwen Image 2.1 Edit](https://spicyapi.ai/ko/models/qwen-image-2-1?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=edit-table-ko) | **가상** 인물 또는 동의한 인물의 레퍼런스 이미지 1–10장으로 하는 무검열 편집: 의상, 포즈, 배경, 조명 변경 (카탈로그 등급 `unrestricted`) | 이미지당 $0.036 |
-| 🌶️ [Qwen Image Edit Spicy](https://spicyapi.ai/ko/models/qwen-image-spicy-edit?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=edit-table-ko) | 지시문 기반 무검열 편집: **가상** 인물 또는 동의한 인물의 의상, 포즈, 배경, 조명 변경 | 이미지당 $0.038 |
+| 🌶️ [Qwen Image Edit Spicy](https://spicyapi.ai/ko/models/qwen-image-spicy-edit?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=edit-table-ko) | 이미지 1장에 지시문으로 하는 편집(Freedom 96이지만 성능 점수는 14로 낮음: 입력 이미지 1장, 크기·화면비 조절 불가). Qwen Image 2.1 Edit을 먼저 써 보세요 | 이미지당 $0.038 |
 | [Image Expander](https://spicyapi.ai/ko/models/image-expander-v1?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=edit-table-ko) | 아웃페인팅으로 프레임을 더 넓게 또는 더 길게 확장 | 이미지당 $0.024 |
 | [Object Eraser](https://spicyapi.ai/ko/models/object-eraser-v1?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=edit-table-ko) | 본인 소유 이미지에서 사물, 로고, 워터마크 제거 | 이미지당 $0.03 |
 | [Image Upscaler](https://spicyapi.ai/ko/models/image-upscaler-v1?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=edit-table-ko) / [Video Upscaler](https://spicyapi.ai/ko/models/video-upscaler-v1?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=edit-table-ko) | 완성된 결과물을 선명하게 하고 확대 | 이미지당 $0.012, 초당 $0.006 |
@@ -249,13 +280,15 @@ Wan 2.2 Spicy는 720p에서 초당 $0.038이므로, 720p 5초 클립은 $0.19입
 
 SpicyAPI는 `https://api.spicyapi.ai`에서 OpenAI, Anthropic, Gemini 호환 엔드포인트로 텍스트 모델을 제공하므로, 기존 SDK에서 base URL만 바꾸면 됩니다. 2026-09-27 기준 카탈로그 등급이 `unrestricted`인 모델은 다음과 같습니다.
 
-| 모델 | 가격 (1K 토큰당) | 용도 |
-|---|---|---|
-| [Grok 4.7](https://spicyapi.ai/ko/models/grok-4-7?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=llm-table-ko) | $0.0036 | 창작 글쓰기, 개성 있는 롤플레이 |
-| [DeepSeek V4 Pro](https://spicyapi.ai/ko/models/deepseek-v4-pro?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=llm-table-ko) | $0.00396 | 장편 소설, 추론 |
-| [DeepSeek V4.1 Flash](https://spicyapi.ai/ko/models/deepseek-v4-1-flash?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=llm-table-ko) | $0.0012 | 대량 채팅, 프롬프트 확장 |
-| [GLM 5.3 Flash](https://spicyapi.ai/ko/models/glm-5-3-flash?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=llm-table-ko) | $0.000425 | 카탈로그에서 가장 저렴한 채팅 모델 |
-| [Kimi K3](https://spicyapi.ai/ko/models/kimi-k3?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=llm-table-ko) | $0.0135 | 긴 컨텍스트가 필요한 스토리 |
+| 모델 | 가격 (1K 토큰당) | Freedom | 용도 |
+|---|---|---|---|
+| [Grok 4.7](https://spicyapi.ai/ko/models/grok-4-7?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=llm-table-ko) | $0.0036 | ✅ 100 (노골적 9/9) | 노골적인 소설, 개성 있는 롤플레이 |
+| [Grok 4.6](https://spicyapi.ai/ko/models/grok-4-6?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=llm-table-ko) / [Grok 4.5](https://spicyapi.ai/ko/models/grok-4-5?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=llm-table-ko) | $0.0036 | ✅ 100 | 4.7과 같은 동작 |
+| [Grok 4.3](https://spicyapi.ai/ko/models/grok-4-3?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=llm-table-ko) | $0.0015 | ✅ 98.9 | 가성비 최고: 텍스트 성능 점수 최고(74), 중앙값 지연 시간 약 4초 |
+| [DeepSeek V4.1 Flash](https://spicyapi.ai/ko/models/deepseek-v4-1-flash?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=llm-table-ko) | $0.0012 | ✅ 90.4 | 저렴한 프롬프트 확장. 노골적 장면을 가끔 순화함(7/16) |
+| [DeepSeek V4 Pro](https://spicyapi.ai/ko/models/deepseek-v4-pro?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=llm-table-ko) | $0.00396 | ◐ 88.6 | 장편 소설, 추론 |
+
+테스트했지만 노골적인 글쓰기에는 비추천: Kimi K3(74.4), GLM 5.x(63–68), Gemini(64–89), Claude 모델(47–79)은 노골적 장면을 순화하거나 거부하는 경우가 많습니다.
 
 ```python
 from openai import OpenAI
@@ -451,12 +484,12 @@ Do you have a GPU with 16 GB+ VRAM and time to tinker?
 └── No
     ├── No-code, in the browser → SpicyAPI Studio (uncensored image & video generator)
     └── Code or an AI agent
-        ├── Volume on a budget  → Wan 2.2 Spicy / LTX 2.3 Spicy ($0.019/s at 480p)
-        ├── Best quality        → Seedance 2.5 Spicy or Seedance 2.0 Spicy
-        ├── Text-to-video       → Seedance 2.5 or Wan 3.0 (standard, unrestricted)
+        ├── Best all-round video → Wan 3.0 (T2V / I2V / Ref2V, Freedom 96, $0.45 per 5 s)
+        ├── Explicit from a still → Seedance 2.5 Spicy, Wan 2.7 Spicy or Vidu Q3 Spicy
+        ├── Custom style / character → MiniMax H3 LoRA / Singularity LoRA (video), Qwen Image 2.1 LoRA (stills)
+        ├── Volume on a budget  → Wan 2.6 Flash or Seedance 1.5 Pro Spicy ($0.11–0.13 per 5 s)
         ├── Stills              → Qwen Image 2.1 (Qwen Image 2.1 LoRA for your own style)
-        ├── Custom styles       → Wan 2.2 Spicy LoRA / LTX 2.3 Spicy LoRA
-        ├── Anime               → Prefect Pony XL (stills) → Vidu Q3 Spicy (motion)
+        ├── Text / roleplay     → Grok 4.7 or Grok 4.3
         └── From Claude Code / Cursor → nsfw-ai-skill or the SpicyAPI MCP server
 ```
 
@@ -464,11 +497,11 @@ Do you have a GPU with 16 GB+ VRAM and time to tinker?
 
 | 용도 | 추천 조합 |
 |---|---|
-| 성인 구독 사이트 / 크리에이터 콘텐츠 | 스틸은 Qwen Image 2.1 → 클립은 Seedance 2.0 Spicy 또는 Wan 2.6 Spicy → Video Upscaler |
-| AI 컴패니언 또는 롤플레이 앱 | 채팅은 Grok 4.7 또는 DeepSeek V4 → 셀카는 Qwen Image 2.1 → 짧은 모션은 MiniMax H3 Spicy |
-| 취미로 이것저것 실험 | Wan 2.2 Spicy 480p로 반복하고, 마음에 드는 것만 720p로 다시 렌더링 |
-| 애니 / 헨타이 스타일 콘텐츠 | Prefect Pony XL → Vidu Q3 Spicy 또는 애니 LoRA를 붙인 Wan 2.2 Spicy LoRA |
-| 성인 소설과 인터랙티브 스토리 | 텍스트는 Grok 4.7 / Kimi K3, 삽화는 Qwen Image 2.1 |
+| 성인 구독 사이트 / 크리에이터 콘텐츠 | 스틸은 Qwen Image 2.1 → 클립은 Wan 3.0 또는 Seedance 2.5 Spicy → Video Upscaler |
+| AI 컴패니언 또는 롤플레이 앱 | 채팅은 Grok 4.7 또는 Grok 4.3 → 셀카는 Qwen Image 2.1 → 짧은 모션은 MiniMax H3 Spicy 또는 Wan 3.0 |
+| 취미로 이것저것 실험 | Wan 2.6 Flash 또는 Seedance 1.5 Pro Spicy로 반복하고, 마음에 드는 것만 Wan 3.0으로 다시 렌더링 |
+| 애니 / 헨타이 스타일 콘텐츠 | 애니 LoRA를 붙인 Qwen Image 2.1 LoRA → Vidu Q3 Spicy(Freedom 96.7) 또는 같은 LoRA를 붙인 Wan 2.2 Spicy LoRA |
+| 성인 소설과 인터랙티브 스토리 | 텍스트는 Grok 4.7, 삽화는 Qwen Image 2.1 |
 
 ---
 
@@ -489,19 +522,19 @@ SpicyAPI 전체 규칙: [콘텐츠 정책](https://spicyapi.ai/ko/legal/content-
 ## 자주 묻는 질문 (FAQ)
 
 ### 2026년 최고의 NSFW AI 영상 생성기는?
-품질로는 이미지 투 비디오 Spicy 에디션 중 **Seedance 2.5 Spicy**(4–30초, 네이티브 최대 1080p)와 **Seedance 2.0 Spicy**가 앞서 있습니다. 텍스트 투 비디오에는 카탈로그에서 둘 다 `unrestricted`인 표준 **Seedance 2.5** 또는 **Wan 3.0**을 쓰세요. 가격으로는 **Wan 2.2 Spicy**와 **LTX 2.3 Spicy**가 초당 $0.019부터입니다. 커스텀 스타일이 필요하면 **Wan 2.2 Spicy LoRA**를 쓰세요. 모두 [SpicyAPI](https://spicyapi.ai/ko?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=faq-ko)에서 API 하나로 이용할 수 있습니다.
+SpicyAPI 공개 테스트 기준으로 전반적으로 가장 좋은 선택은 **Wan 3.0**입니다. Spicy Index 76.5(영상 모델 37개 중 2위), Freedom Score 96, 노골적 테스트 프롬프트를 모두 렌더링(9/9), 최대 30초 클립, 720p 5초당 $0.45입니다. 노골적인 이미지 투 비디오에는 Spicy 에디션인 **Seedance 2.5 Spicy**, **Wan 2.7 Spicy**, **Vidu Q3 Spicy**(Freedom 96.7–100)가 가장 확실하고, 나만의 스타일에는 **MiniMax H3 LoRA**가 좋습니다. 표준 Seedance 2.0은 성능 점수가 가장 높지만 노골적 프롬프트를 자주 순화합니다(Freedom 70.4). 결과: [SpicyAPI 리더보드](https://spicyapi.ai/ko/leaderboards?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=faq-ko).
 
 ### 가장 좋은 무검열 AI 이미지 생성기는?
-호스팅형으로는 실사와 화보 스타일에 **Qwen Image 2.1**(이미지당 $0.024부터, 카탈로그 등급 `unrestricted`), 나만의 스타일에는 **Qwen Image 2.1 LoRA**, 가장 저렴하게 대량으로 만들 때는 **Z-Image Spicy**(이미지당 $0.01235부터), 애니메이션에는 **Prefect Pony XL**이 좋습니다. 셀프 호스팅으로는 ComfyUI나 Forge에서 SDXL, Pony, Illustrious 커뮤니티 체크포인트를 쓰면 됩니다.
+호스팅형으로는 **Qwen Image 2.1**(Spicy Index 73, Freedom 96.3, 이미지당 $0.024부터), 나만의 스타일에는 **Qwen Image 2.1 LoRA**(이미지 인덱스 1위, 80.5)와 **MiniMax H3 Image LoRA**(Freedom 100), 강력한 대안으로는 **Seedream 5.0 Lite / Pro**, 가장 저렴하게 대량으로 만들 때는 **Z-Image Spicy**($0.01235, Freedom 98.8)가 좋습니다. 셀프 호스팅으로는 ComfyUI나 Forge에서 SDXL, Pony, Illustrious 커뮤니티 체크포인트를 쓰면 됩니다.
 
 ### 이미지를 NSFW 영상으로 바꾸려면 어떻게 하나요?
-첫 프레임(가상의 성인 또는 본인)을 생성하거나 고른 다음, 움직임과 카메라를 묘사한 짧은 프롬프트와 함께 Wan 2.2 Spicy 같은 NSFW 이미지 투 비디오 모델에 보내면 됩니다. [API 빠른 시작](#빠른-시작-http로-nsfw-이미지-투-비디오-생성)을 보거나 브라우저 기반 [이미지 투 비디오 도구](https://spicyapi.ai/ko/create/image-to-video?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=faq-ko)를 사용하세요.
+첫 프레임(가상의 성인 또는 본인)을 생성하거나 고른 다음, 움직임과 카메라를 묘사한 짧은 프롬프트와 함께 Wan 3.0이나 Seedance 2.5 Spicy 같은 NSFW 이미지 투 비디오 모델에 보내면 됩니다. [API 빠른 시작](#빠른-시작-http로-nsfw-이미지-투-비디오-생성)을 보거나 브라우저 기반 [이미지 투 비디오 도구](https://spicyapi.ai/ko/create/image-to-video?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=faq-ko)를 사용하세요.
 
 ### 무료 NSFW AI 생성기가 있나요?
 오픈 웨이트 모델을 로컬에서 실행하면(ComfyUI + Wan 2.2, Qwen-Image 또는 Z-Image) 하드웨어와 전기료 외에는 무료입니다. 호스팅 서비스는 GPU 비용 때문에 요금을 받습니다. SpicyAPI는 구독 없이 결과물 단위로 과금하며, 실패한 작업은 환불됩니다.
 
 ### 가장 저렴한 NSFW AI 영상 API는?
-SpicyAPI 카탈로그(2026-09-27) 기준으로 Spicy 영상 모델 중 초당 가격이 가장 낮은 것은 **Seedance 1.5 Pro Spicy, 초당 $0.012**(480p, 오디오 없음)이고, 그다음이 **Wan 2.2 Spicy**와 **LTX 2.3 Spicy, 초당 $0.019**(480p)입니다.
+SpicyAPI 카탈로그(2026-09-27) 기준으로 노골적 테스트를 통과한 가장 저렴한 모델은 **Wan 2.6 Flash**(720p 5초당 $0.1125, Freedom 100)와 **Seedance 1.5 Pro Spicy**(720p 5초당 $0.13, 오디오 없는 480p는 $0.06, Freedom 96.7)입니다. 그다음은 5초당 $0.19(720p)인 Wan 2.2 Spicy와 LTX 2.3 Spicy입니다.
 
 ### NSFW AI 생성은 합법인가요?
 **가상의 성인**을 다룬 성적 콘텐츠 생성은 대부분의 국가에서 합법이지만, 법률은 나라마다 다르고 어떤 콘텐츠는 어디서든 불법입니다. 미성년자가 관련된 모든 콘텐츠, 그리고 동의 없이 만든 실존 인물의 성적 콘텐츠가 그렇습니다. 만들고 공유하는 콘텐츠에 대한 책임은 본인에게 있습니다. 이 내용은 법률 자문이 아닙니다.
