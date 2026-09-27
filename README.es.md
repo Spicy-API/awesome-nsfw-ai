@@ -60,7 +60,8 @@
 | Chat, roleplay o redacción de prompts sin censura | [Grok 4.7](https://spicyapi.ai/es/models/grok-4-7?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-es) o [Grok 4.3](https://spicyapi.ai/es/models/grok-4-3?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-es) | Freedom 100 / 98.9 en la clasificación de texto; Grok 4.3 es el más rápido (≈4 s de mediana) |
 | Ejecutarlo todo en local, gratis | [ComfyUI](https://github.com/Comfy-Org/ComfyUI) + pesos abiertos de [Wan 2.2](https://github.com/Wan-Video/Wan2.2) | Necesita una GPU potente (con 24 GB de VRAM es suficiente) |
 | Que Claude Code / Cursor generen por mí | [nsfw-ai-skill](https://github.com/Spicy-API/nsfw-ai-skill/blob/main/README.es.md) o el [servidor MCP oficial de SpicyAPI](https://docs.spicyapi.ai/docs/mcp?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr) | Generación en lenguaje natural desde tu agente |
-| Prompts para copiar y pegar que funcionan | [nsfw-ai-video-prompts](https://github.com/Spicy-API/nsfw-ai-video-prompts/blob/main/README.es.md) | 116 prompts de video listos para usar y 130 casos reales, cada uno con su prompt |
+| Prompts de imagen para copiar y pegar | [nsfw-ai-image-prompts](https://github.com/Spicy-API/nsfw-ai-image-prompts/blob/main/README.es.md) | 104 prompts de imagen y de edición para Qwen Image 2.1, Seedream 5.0 y más, además de 72 casos con resultados reales |
+| Prompts de video para copiar y pegar | [nsfw-ai-video-prompts](https://github.com/Spicy-API/nsfw-ai-video-prompts/blob/main/README.es.md) | 116 prompts de video listos para usar y 130 casos reales, cada uno con su prompt |
 
 Las puntuaciones proceden de las [clasificaciones públicas de SpicyAPI](https://spicyapi.ai/es/leaderboards?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-es) (metodología v2.1, pruebas realizadas del 2026-09-14 al 2026-09-27; consulta [cómo se clasifican los modelos](#cómo-se-clasifican-aquí-los-modelos)). Los precios corresponden al nivel publicado en el catálogo; las resoluciones más altas, el audio y los clips más largos cuestan más.
 
@@ -475,7 +476,7 @@ Lo que marca la diferencia:
 5. **Haz clips cortos.** 5 segundos es el punto ideal para que la anatomía se mantenga coherente; si necesitas más, extiende el clip en una segunda llamada.
 6. **Indica siempre una edad adulta** ("in her 30s", "adult man in his 40s") y evita descripciones que sugieran juventud.
 
-Más de 100 prompts probados, prompts negativos y una guía rápida de cámara e iluminación en **[nsfw-ai-video-prompts](https://github.com/Spicy-API/nsfw-ai-video-prompts/blob/main/README.es.md)**.
+Prompts listos para usar: **[nsfw-ai-image-prompts](https://github.com/Spicy-API/nsfw-ai-image-prompts/blob/main/README.es.md)** para imágenes fijas y ediciones, **[nsfw-ai-video-prompts](https://github.com/Spicy-API/nsfw-ai-video-prompts/blob/main/README.es.md)** para video.
 
 ---
 
@@ -552,6 +553,7 @@ Sí. Instala [nsfw-ai-skill](https://github.com/Spicy-API/nsfw-ai-skill/blob/mai
 
 ## Repositorios relacionados
 
+- **[nsfw-ai-image-prompts](https://github.com/Spicy-API/nsfw-ai-image-prompts/blob/main/README.es.md)**: 104 prompts NSFW de imagen y de edición sin censura, con casos de resultados reales.
 - **[nsfw-ai-video-prompts](https://github.com/Spicy-API/nsfw-ai-video-prompts/blob/main/README.es.md)**: más de 100 prompts de video NSFW, prompts para imágenes de referencia, prompts negativos y consejos específicos para cada modelo.
 - **[nsfw-ai-skill](https://github.com/Spicy-API/nsfw-ai-skill/blob/main/README.es.md)**: skill para agentes que genera imágenes, video y texto NSFW desde Claude Code, Cursor, Codex y más.
 - **[spicy-skill](https://github.com/Spicy-API/spicy-skill)** · **[spicy-mcp](https://github.com/Spicy-API/spicy-mcp)** · **[spicy-sdk](https://github.com/Spicy-API/spicy-sdk)**: herramientas oficiales de SpicyAPI para desarrolladores.

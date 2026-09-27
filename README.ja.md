@@ -59,7 +59,8 @@
 | 無検閲のチャット、ロールプレイ、プロンプト作成 | [Grok 4.7](https://spicyapi.ai/ja/models/grok-4-7?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ja) または [Grok 4.3](https://spicyapi.ai/ja/models/grok-4-3?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ja) | テキストのリーダーボードで Freedom 100 / 98.9。いちばん速いのは Grok 4.3（中央値 約 4 秒） |
 | すべてローカルで無料で動かしたい | [ComfyUI](https://github.com/Comfy-Org/ComfyUI) + [Wan 2.2](https://github.com/Wan-Video/Wan2.2) のオープンウェイト | 高性能 GPU が必要（VRAM 24 GB あれば余裕） |
 | Claude Code / Cursor に生成させたい | [nsfw-ai-skill](https://github.com/Spicy-API/nsfw-ai-skill/blob/main/README.ja.md) または公式 [SpicyAPI MCP サーバー](https://docs.spicyapi.ai/docs/mcp?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr) | エージェントに自然な言葉で頼むだけで生成 |
-| そのまま使えるプロンプトが欲しい | [nsfw-ai-video-prompts](https://github.com/Spicy-API/nsfw-ai-video-prompts/blob/main/README.ja.md) | すぐ使える動画プロンプト 116 本と、プロンプト付きの実際の出力例 130 件 |
+| コピペで使える画像プロンプトが欲しい | [nsfw-ai-image-prompts](https://github.com/Spicy-API/nsfw-ai-image-prompts/blob/main/README.ja.md) | Qwen Image 2.1、Seedream 5.0 などに対応した画像・編集プロンプト 104 本と、実際の出力例 72 件 |
+| コピペで使える動画プロンプトが欲しい | [nsfw-ai-video-prompts](https://github.com/Spicy-API/nsfw-ai-video-prompts/blob/main/README.ja.md) | すぐ使える動画プロンプト 116 本と、プロンプト付きの実際の出力例 130 件 |
 
 スコアは公開されている [SpicyAPI リーダーボード](https://spicyapi.ai/ja/leaderboards?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ja)のものです（評価方法 v2.1、テスト期間 2026-09-14〜2026-09-27。[モデルの評価方法](#このリストでのモデルの評価方法)を参照）。価格はカタログに載っているティアの価格です。解像度を上げる、音声を付ける、尺を長くすると料金は上がります。
 
@@ -474,7 +475,7 @@ Slow push-in from medium shot to close-up, shallow depth of field, 35mm film loo
 5. **動画は短く。** 体の形が崩れにくいのは 5 秒前後です。もっと長くしたいときは 2 回目の呼び出しで延長します。
 6. **必ず成人の年齢を書く**（「in her 30s」「adult man in his 40s」など）。幼さを連想させる表現は使わないでください。
 
-検証済みのプロンプト 100 本以上、ネガティブプロンプト、カメラ・ライティングの早見表は **[nsfw-ai-video-prompts](https://github.com/Spicy-API/nsfw-ai-video-prompts/blob/main/README.ja.md)** にあります。
+すぐ使えるプロンプト：静止画と編集は **[nsfw-ai-image-prompts](https://github.com/Spicy-API/nsfw-ai-image-prompts/blob/main/README.ja.md)**、動画は **[nsfw-ai-video-prompts](https://github.com/Spicy-API/nsfw-ai-video-prompts/blob/main/README.ja.md)** にあります。
 
 ---
 
@@ -553,6 +554,7 @@ SpicyAPI のカタログ（2026-09-27）で、露骨なテストに合格した�
 
 ## 関連リポジトリ
 
+- **[nsfw-ai-image-prompts](https://github.com/Spicy-API/nsfw-ai-image-prompts/blob/main/README.ja.md)**：NSFW 画像プロンプトと無修正の画像編集プロンプト 104 本、実際の出力例付き。
 - **[nsfw-ai-video-prompts](https://github.com/Spicy-API/nsfw-ai-video-prompts/blob/main/README.ja.md)**：NSFW 動画プロンプト 100 本以上、参照画像用プロンプト、ネガティブプロンプト、モデル別のコツ。
 - **[nsfw-ai-skill](https://github.com/Spicy-API/nsfw-ai-skill/blob/main/README.ja.md)**：Claude Code、Cursor、Codex などから NSFW の画像・動画・テキストを生成できるエージェントスキル。
 - **[spicy-skill](https://github.com/Spicy-API/spicy-skill)** · **[spicy-mcp](https://github.com/Spicy-API/spicy-mcp)** · **[spicy-sdk](https://github.com/Spicy-API/spicy-sdk)**：SpicyAPI 公式の開発者ツール。

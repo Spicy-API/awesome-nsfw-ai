@@ -60,7 +60,8 @@
 | 무검열 채팅, 롤플레이, 프롬프트 작성 | [Grok 4.7](https://spicyapi.ai/ko/models/grok-4-7?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ko) 또는 [Grok 4.3](https://spicyapi.ai/ko/models/grok-4-3?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ko) | 텍스트 보드에서 Freedom 100 / 98.9. Grok 4.3이 가장 빠름(중앙값 약 4초) |
 | 전부 로컬에서 무료로 돌리기 | [ComfyUI](https://github.com/Comfy-Org/ComfyUI) + [Wan 2.2](https://github.com/Wan-Video/Wan2.2) 오픈 웨이트 | 고성능 GPU 필요 (VRAM 24 GB면 여유 있음) |
 | Claude Code / Cursor가 대신 생성하게 하기 | [nsfw-ai-skill](https://github.com/Spicy-API/nsfw-ai-skill/blob/main/README.ko.md) 또는 공식 [SpicyAPI MCP 서버](https://docs.spicyapi.ai/docs/mcp?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr) | 에이전트에서 자연어로 생성 |
-| 복사해서 바로 쓰는 검증된 프롬프트 | [nsfw-ai-video-prompts](https://github.com/Spicy-API/nsfw-ai-video-prompts/blob/main/README.ko.md) | 바로 쓸 수 있는 영상 프롬프트 116개와 프롬프트가 포함된 실제 결과물 사례 130개 |
+| 복사해서 바로 쓰는 이미지 프롬프트 | [nsfw-ai-image-prompts](https://github.com/Spicy-API/nsfw-ai-image-prompts/blob/main/README.ko.md) | Qwen Image 2.1, Seedream 5.0 등을 위한 이미지·편집 프롬프트 104개와 실제 결과물 사례 72개 |
+| 복사해서 바로 쓰는 영상 프롬프트 | [nsfw-ai-video-prompts](https://github.com/Spicy-API/nsfw-ai-video-prompts/blob/main/README.ko.md) | 바로 쓸 수 있는 영상 프롬프트 116개와 프롬프트가 포함된 실제 결과물 사례 130개 |
 
 점수는 공개된 [SpicyAPI 리더보드](https://spicyapi.ai/ko/leaderboards?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ko)에서 가져왔습니다(방법론 v2.1, 2026-09-14부터 2026-09-27까지 실시한 테스트. [모델 평가 방식](#이-목록의-모델-평가-방식) 참고). 가격은 카탈로그에 올라온 등급 기준이며, 해상도가 높거나, 오디오가 있거나, 클립이 길면 더 비쌉니다.
 
@@ -472,7 +473,7 @@ Slow push-in from medium shot to close-up, shallow depth of field, 35mm film loo
 5. **클립은 짧게.** 인체 일관성을 유지하기에는 5초가 가장 적당합니다. 더 필요하면 두 번째 호출로 연장하세요.
 6. **항상 성인 나이를 명시하세요**("in her 30s", "adult man in his 40s"). 어려 보이는 묘사는 피하세요.
 
-검증된 프롬프트 100개 이상, 네거티브 프롬프트, 카메라/조명 치트시트는 **[nsfw-ai-video-prompts](https://github.com/Spicy-API/nsfw-ai-video-prompts/blob/main/README.ko.md)** 저장소에 있습니다.
+바로 쓸 수 있는 프롬프트: 스틸 이미지와 편집은 **[nsfw-ai-image-prompts](https://github.com/Spicy-API/nsfw-ai-image-prompts/blob/main/README.ko.md)**, 영상은 **[nsfw-ai-video-prompts](https://github.com/Spicy-API/nsfw-ai-video-prompts/blob/main/README.ko.md)** 저장소에 있습니다.
 
 ---
 
@@ -549,6 +550,7 @@ SpicyAPI 카탈로그(2026-09-27) 기준으로 노골적 테스트를 통과한 
 
 ## 관련 저장소
 
+- **[nsfw-ai-image-prompts](https://github.com/Spicy-API/nsfw-ai-image-prompts/blob/main/README.ko.md)**: NSFW 이미지 프롬프트와 무검열 편집 프롬프트 104개, 실제 결과물 사례 포함.
 - **[nsfw-ai-video-prompts](https://github.com/Spicy-API/nsfw-ai-video-prompts/blob/main/README.ko.md)**: NSFW 영상 프롬프트 100개 이상, 레퍼런스 이미지 프롬프트, 네거티브 프롬프트, 모델별 팁.
 - **[nsfw-ai-skill](https://github.com/Spicy-API/nsfw-ai-skill/blob/main/README.ko.md)**: Claude Code, Cursor, Codex 등에서 NSFW 이미지·영상·텍스트를 생성하는 에이전트 스킬.
 - **[spicy-skill](https://github.com/Spicy-API/spicy-skill)** · **[spicy-mcp](https://github.com/Spicy-API/spicy-mcp)** · **[spicy-sdk](https://github.com/Spicy-API/spicy-sdk)**: SpicyAPI 공식 개발자 도구.
