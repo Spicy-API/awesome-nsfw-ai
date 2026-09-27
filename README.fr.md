@@ -52,7 +52,7 @@
 |---|---|---|
 | Le meilleur modèle vidéo NSFW polyvalent | [Wan 3.0](https://spicyapi.ai/fr/models/wan-3-0?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-fr) | Spicy Index 76.5 (n° 2 sur 37), Freedom 96 ; tous les prompts de test explicites rendus (9/9) ; T2V, I2V et vidéo à partir de références jusqu'à 30 s ; $0.45 les 5 s en 720p |
 | De la vidéo NSFW avec mon propre style ou personnage | [MiniMax H3 LoRA](https://spicyapi.ai/fr/models/minimax-h3-lora?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-fr) ou [MiniMax H3 Singularity LoRA](https://spicyapi.ai/fr/models/minimax-h3-singularity-lora?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-fr) | Spicy Index 75.2 / 72.8, Freedom 98.3 / 100 |
-| De l'image en vidéo explicite avec une édition Spicy | 🌶️ [Seedance 2.5 Spicy](https://spicyapi.ai/fr/models/seedance-2-5-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-fr), 🌶️ [Wan 2.7 Spicy](https://spicyapi.ai/fr/models/wan-2-7-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-fr) ou 🌶️ [Vidu Q3 Spicy](https://spicyapi.ai/fr/models/vidu-q3-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-fr) | Freedom 96.7–100, tous les prompts de test explicites rendus (3/3) |
+| De l'image en vidéo sans censure avec une édition Spicy | 🌶️ [Seedance 2.5 Spicy](https://spicyapi.ai/fr/models/seedance-2-5-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-fr), 🌶️ [Wan 2.7 Spicy](https://spicyapi.ai/fr/models/wan-2-7-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-fr) ou 🌶️ [Vidu Q3 Spicy](https://spicyapi.ai/fr/models/vidu-q3-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-fr) | Freedom 96.7–100, tous les prompts de test explicites rendus (3/3) |
 | De la vidéo NSFW pas chère, en volume | [Wan 2.6 Flash](https://spicyapi.ai/fr/models/wan-2-6-flash?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-fr) ou 🌶️ [Seedance 1.5 Pro Spicy](https://spicyapi.ai/fr/models/seedance-1-5-pro-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-fr) | Freedom 100 / 96.7 pour $0.11–0.13 les 5 s (720p) |
 | Un modèle texte en image sans censure | [Qwen Image 2.1](https://spicyapi.ai/fr/models/qwen-image-2-1?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-fr) | Spicy Index 73, Freedom 96.3, à partir de $0.024 par image ; prompts longs, 15 formats |
 | Des images dans mon propre style (anime compris) | [Qwen Image 2.1 LoRA](https://spicyapi.ai/fr/models/qwen-image-2-1-lora?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-fr) ou [MiniMax H3 Image LoRA](https://spicyapi.ai/fr/models/minimax-h3-image-lora?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-fr) | N° 1 et n° 2 du Spicy Index image (80.5 / 74.5), Freedom 92 / 100 |
@@ -61,7 +61,7 @@
 | Tout faire tourner en local, gratuitement | [ComfyUI](https://github.com/Comfy-Org/ComfyUI) + poids ouverts [Wan 2.2](https://github.com/Wan-Video/Wan2.2) | Demande un GPU puissant (24 Go de VRAM, c'est confortable) |
 | Laisser Claude Code / Cursor générer à ma place | [nsfw-ai-skill](https://github.com/Spicy-API/nsfw-ai-skill/blob/main/README.fr.md) ou le [serveur MCP officiel de SpicyAPI](https://docs.spicyapi.ai/docs/mcp?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr) | Génération en langage naturel depuis votre agent |
 | Des prompts d'images prêts à copier-coller | [nsfw-ai-image-prompts](https://github.com/Spicy-API/nsfw-ai-image-prompts/blob/main/README.fr.md) | 104 prompts d'images et de retouche pour Qwen Image 2.1, Seedream 5.0 et d'autres, plus 72 résultats réels |
-| Des prompts vidéo prêts à copier-coller | [nsfw-ai-video-prompts](https://github.com/Spicy-API/nsfw-ai-video-prompts/blob/main/README.fr.md) | 116 prompts vidéo prêts à l'emploi et 130 résultats réels, chacun avec son prompt |
+| Des prompts vidéo prêts à copier-coller | [nsfw-ai-video-prompts](https://github.com/Spicy-API/nsfw-ai-video-prompts/blob/main/README.fr.md) | 116 prompts vidéo prêts à l'emploi et 128 résultats réels, chacun avec son prompt |
 
 Les scores proviennent des [classements publics de SpicyAPI](https://spicyapi.ai/fr/leaderboards?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-fr) (méthodologie v2.1, tests du 2026-09-14 au 2026-09-27 ; voir [comment les modèles sont classés](#comment-les-modèles-sont-classés-ici)). Les prix correspondent au palier indiqué dans le catalogue ; les résolutions plus élevées, l'audio et les clips plus longs coûtent plus cher.
 
@@ -116,7 +116,7 @@ Sur SpicyAPI, chaque modèle du catalogue public porte un niveau de politique (`
 
 Les recommandations de cette liste s'appuient sur les résultats de tests publiés par SpicyAPI, pas sur des arguments marketing :
 
-- **Freedom Score (0–100)** : la fiabilité avec laquelle un modèle rend ce que demande un prompt pour adultes, sur cinq niveaux : L1 suggestif, L2 nudité partielle, L3 nudité, L4 explicite, L5 extrême (BDSM / gore). Chaque niveau vaut 20 points × taux de réussite × confiance, si bien que les résultats adoucis ou remplacés font perdre des points. ✅ 90+ · ◐ 70–89 · ⚠️ moins de 70 · 🧪 moins de 15 tests à ce jour : un score bas traduit alors un manque de couverture plutôt que des refus.
+- **Freedom Score (0–100)** : la fiabilité avec laquelle un modèle rend ce que demande un prompt pour adultes, sur cinq niveaux : L1 suggestif, L2 nudité partielle, L3 nudité, L4 explicite, L5 extrême. Chaque niveau vaut 20 points × taux de réussite × confiance, si bien que les résultats adoucis ou remplacés font perdre des points. ✅ 90+ · ◐ 70–89 · ⚠️ moins de 70 · 🧪 moins de 15 tests à ce jour : un score bas traduit alors un manque de couverture plutôt que des refus.
 - **Spicy Index (0–100)** : pour l'instant *préliminaire* ; c'est un score de capacités calculé à partir des spécifications publiques (résolution native, durée maximale des clips, audio, entrées, etc.). Les votes de qualité de l'arène ne sont pas encore pris en compte : il ne mesure donc pas encore la qualité visuelle.
 - **Vérifications techniques par route** : avant qu'un modèle soit listé, l'équipe génère des cas de test explicites sur chaque route amont et inspecte le résultat téléchargé image par image (un statut « succès » ne suffit pas, car certains fournisseurs remplacent discrètement le résultat par une image sans risque). Les modèles qui ne rendent du contenu explicite que sur certaines routes ne sont pas recommandés ici.
 
@@ -177,7 +177,7 @@ Choix testés (explicite = prompts de test L4 rendus comme demandé) :
 
 - **Meilleur polyvalent : Wan 3.0.** Spicy Index 76.5, Freedom 96, explicite 9/9, $0.45 les 5 s en 720p, clips jusqu'à 30 s. Wan 3.0 Pro et Pro Prime rendent eux aussi les prompts explicites (9/9) mais obtiennent un Freedom plus bas (82), surtout au niveau extrême (L5).
 - **Styles et personnages personnalisés : MiniMax H3 LoRA** (Index 75.2, Freedom 98.3, explicite 11/13) et **MiniMax H3 Singularity LoRA** (Index 72.8, Freedom 100, explicite 8/8).
-- **Seedance pour le contenu adulte : Seedance 2.5** (Index 69.5, Freedom 80.9, explicite 8/9) pour le texte en vidéo et la vidéo à partir de références ; pour de l'image en vidéo explicite, utilisez l'édition 🌶️ **Seedance 2.5 Spicy** (Freedom 96.7, explicite 3/3).
+- **Seedance pour le contenu adulte : Seedance 2.5** (Index 69.5, Freedom 80.9, explicite 8/9) pour le texte en vidéo et la vidéo à partir de références ; pour de l'image en vidéo sans censure, utilisez l'édition 🌶️ **Seedance 2.5 Spicy** (Freedom 96.7, explicite 3/3).
 - **Les plus permissifs : Wan 2.7 Spicy, Wan 2.6 Flash et MiniMax H3 Singularity LoRA** (Freedom 100), **Wan 2.5** (99).
 - **Petit budget : Wan 2.6 Flash** ($0.11 les 5 s, Freedom 100), 🌶️ **Seedance 1.5 Pro Spicy** ($0.13, Freedom 96.7) et **MiniMax H3** ($0.185 les 5 s en 768p ; ses 14 clips de test sont tous sortis comme demandé ; son Freedom n'est bas que parce que certains niveaux ne sont pas encore couverts). 🌶️ Wan 2.2 Spicy et LTX 2.3 Spicy coûtent $0.19 mais adoucissent plus souvent le niveau le plus élevé.
 - **Adoucissent les prompts explicites en test**, préférez donc l'édition Spicy de la famille : Seedance 2.0 standard (Freedom 70.4, explicite 1/9 ; c'est le modèle vidéo qui a le score de capacités le plus élevé, il est donc excellent pour du contenu suggestif), Seedance 2.0 Fast / Mini (68.2 / 64.9), HappyHorse 1.1 (65.1) et Wan 2.2 (43.1).
@@ -275,7 +275,7 @@ Pour un comparatif direct de ce que chaque modèle d'image autorise, lisez [Less
 
 ## LLM sans censure et jeu de rôle
 
-Les modèles de texte comptent à trois endroits pour le NSFW : la fiction érotique et les histoires interactives, les applis de compagnon virtuel et de jeu de rôle, et **l'écriture de meilleurs prompts image et vidéo** (un LLM transforme une idée d'une ligne en prompt détaillé qui décrit la caméra).
+Les modèles de texte comptent à trois endroits pour le NSFW : la fiction pour adultes et les histoires interactives, les applis de compagnon virtuel et de jeu de rôle, et **l'écriture de meilleurs prompts image et vidéo** (un LLM transforme une idée d'une ligne en prompt détaillé qui décrit la caméra).
 
 ### Hébergés (compatibles OpenAI)
 
@@ -283,13 +283,13 @@ SpicyAPI sert des modèles de texte via des endpoints compatibles OpenAI, Anthro
 
 | Modèle | À partir de (pour 1K tokens) | Freedom | Idéal pour |
 |---|---|---|---|
-| [Grok 4.7](https://spicyapi.ai/fr/models/grok-4-7?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=llm-table-fr) | $0.0036 | ✅ 100 (explicite 9/9) | Fiction explicite, jeu de rôle avec de la personnalité |
+| [Grok 4.7](https://spicyapi.ai/fr/models/grok-4-7?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=llm-table-fr) | $0.0036 | ✅ 100 (explicite 9/9) | Fiction pour adultes, jeu de rôle avec de la personnalité |
 | [Grok 4.6](https://spicyapi.ai/fr/models/grok-4-6?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=llm-table-fr) / [Grok 4.5](https://spicyapi.ai/fr/models/grok-4-5?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=llm-table-fr) | $0.0036 | ✅ 100 | Même comportement que 4.7 |
 | [Grok 4.3](https://spicyapi.ai/fr/models/grok-4-3?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=llm-table-fr) | $0.0015 | ✅ 98.9 | Meilleur rapport qualité-prix : score de capacités texte le plus élevé (74) et latence médiane ≈4 s |
-| [DeepSeek V4.1 Flash](https://spicyapi.ai/fr/models/deepseek-v4-1-flash?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=llm-table-fr) | $0.0012 | ✅ 90.4 | Enrichissement de prompts pas cher ; adoucit parfois les scènes explicites (7/16) |
+| [DeepSeek V4.1 Flash](https://spicyapi.ai/fr/models/deepseek-v4-1-flash?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=llm-table-fr) | $0.0012 | ✅ 90.4 | Enrichissement de prompts pas cher ; adoucit parfois les scènes pour adultes (7/16) |
 | [DeepSeek V4 Pro](https://spicyapi.ai/fr/models/deepseek-v4-pro?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=llm-table-fr) | $0.00396 | ◐ 88.6 | Fiction longue et raisonnement |
 
-Testés mais déconseillés pour l'écriture explicite : Kimi K3 (74.4), GLM 5.x (63–68), Gemini (64–89) et les modèles Claude (47–79) adoucissent ou refusent souvent les scènes explicites.
+Testés mais déconseillés pour l'écriture sans censure : Kimi K3 (74.4), GLM 5.x (63–68), Gemini (64–89) et les modèles Claude (47–79) adoucissent ou refusent souvent les scènes pour adultes.
 
 ```python
 from openai import OpenAI
@@ -486,7 +486,7 @@ Vous avez un GPU avec 16 Go+ de VRAM et du temps pour bidouiller ?
     ├── Sans code, dans le navigateur → SpicyAPI Studio (générateur d'images et de vidéos sans censure)
     └── Avec du code ou un agent IA
         ├── Meilleure vidéo polyvalente → Wan 3.0 (T2V / I2V / Ref2V, Freedom 96, $0.45 les 5 s)
-        ├── Explicite à partir d'une image fixe → Seedance 2.5 Spicy, Wan 2.7 Spicy ou Vidu Q3 Spicy
+        ├── Sans censure à partir d'une image fixe → Seedance 2.5 Spicy, Wan 2.7 Spicy ou Vidu Q3 Spicy
         ├── Style / personnage personnalisé → MiniMax H3 LoRA / Singularity LoRA (vidéo), Qwen Image 2.1 LoRA (images fixes)
         ├── Volume à petit budget → Wan 2.6 Flash ou Seedance 1.5 Pro Spicy ($0.11–0.13 les 5 s)
         ├── Images fixes          → Qwen Image 2.1 (Qwen Image 2.1 LoRA pour votre propre style)
@@ -502,7 +502,7 @@ Vous avez un GPU avec 16 Go+ de VRAM et du temps pour bidouiller ?
 | Appli de compagnon IA ou de jeu de rôle | Grok 4.7 ou Grok 4.3 pour le chat → Qwen Image 2.1 pour les selfies → MiniMax H3 Spicy ou Wan 3.0 pour de courtes animations |
 | Amateur, beaucoup d'essais | Wan 2.6 Flash ou Seedance 1.5 Pro Spicy, itérer, puis refaire les meilleurs sur Wan 3.0 |
 | Contenu style anime / hentai | Qwen Image 2.1 LoRA avec un LoRA anime → Vidu Q3 Spicy (Freedom 96.7) ou Wan 2.2 Spicy LoRA avec le même LoRA |
-| Fiction érotique et histoires interactives | Grok 4.7 pour le texte, Qwen Image 2.1 pour les illustrations |
+| Fiction pour adultes et histoires interactives | Grok 4.7 pour le texte, Qwen Image 2.1 pour les illustrations |
 
 ---
 
@@ -523,7 +523,7 @@ Règles complètes de SpicyAPI : [Politique de contenu](https://spicyapi.ai/fr/l
 ## FAQ
 
 ### Quel est le meilleur générateur de vidéo IA NSFW en 2026 ?
-D'après les tests publics de SpicyAPI, **Wan 3.0** est le meilleur choix polyvalent : Spicy Index 76.5 (n° 2 sur 37 modèles vidéo), Freedom Score 96, tous les prompts de test explicites rendus (9/9), clips jusqu'à 30 s, et $0.45 les 5 s en 720p. Pour de l'image en vidéo explicite, les éditions Spicy **Seedance 2.5 Spicy**, **Wan 2.7 Spicy** et **Vidu Q3 Spicy** (Freedom 96.7–100) sont les valeurs les plus sûres ; pour votre propre style, **MiniMax H3 LoRA**. Seedance 2.0 standard a le score de capacités le plus élevé mais adoucit souvent les prompts explicites (Freedom 70.4). Résultats : [classements SpicyAPI](https://spicyapi.ai/fr/leaderboards?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=faq-fr).
+D'après les tests publics de SpicyAPI, **Wan 3.0** est le meilleur choix polyvalent : Spicy Index 76.5 (n° 2 sur 37 modèles vidéo), Freedom Score 96, tous les prompts de test explicites rendus (9/9), clips jusqu'à 30 s, et $0.45 les 5 s en 720p. Pour de l'image en vidéo sans censure, les éditions Spicy **Seedance 2.5 Spicy**, **Wan 2.7 Spicy** et **Vidu Q3 Spicy** (Freedom 96.7–100) sont les valeurs les plus sûres ; pour votre propre style, **MiniMax H3 LoRA**. Seedance 2.0 standard a le score de capacités le plus élevé mais adoucit souvent les prompts explicites (Freedom 70.4). Résultats : [classements SpicyAPI](https://spicyapi.ai/fr/leaderboards?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=faq-fr).
 
 ### Quel est le meilleur générateur d'images IA sans censure ?
 En hébergé : **Qwen Image 2.1** (Spicy Index 73, Freedom 96.3, à partir de $0.024/image) ; **Qwen Image 2.1 LoRA** (n° 1 de l'index image, 80.5) et **MiniMax H3 Image LoRA** (Freedom 100) pour vos propres styles ; **Seedream 5.0 Lite / Pro** comme solides alternatives ; **Z-Image Spicy** ($0.01235, Freedom 98.8) pour le volume au meilleur prix. En auto-hébergé : les checkpoints communautaires SDXL, Pony et Illustrious dans ComfyUI ou Forge.

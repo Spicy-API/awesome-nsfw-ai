@@ -51,7 +51,7 @@
 |---|---|---|
 | 総合力の高い NSFW 動画モデル | [Wan 3.0](https://spicyapi.ai/ja/models/wan-3-0?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ja) | Spicy Index 76.5（37 モデル中 2 位）、Freedom 96。露骨なテストプロンプトはすべて指示どおりに生成（9/9）。T2V、I2V、参照画像から動画に対応し最大 30 秒。720p で 5 秒 $0.45 |
 | 自分のスタイルやキャラクターで NSFW 動画を作りたい | [MiniMax H3 LoRA](https://spicyapi.ai/ja/models/minimax-h3-lora?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ja) または [MiniMax H3 Singularity LoRA](https://spicyapi.ai/ja/models/minimax-h3-singularity-lora?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ja) | Spicy Index 75.2 / 72.8、Freedom 98.3 / 100 |
-| Spicy 版で露骨な「画像から動画」を作りたい | 🌶️ [Seedance 2.5 Spicy](https://spicyapi.ai/ja/models/seedance-2-5-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ja)、🌶️ [Wan 2.7 Spicy](https://spicyapi.ai/ja/models/wan-2-7-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ja) または 🌶️ [Vidu Q3 Spicy](https://spicyapi.ai/ja/models/vidu-q3-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ja) | Freedom 96.7〜100。露骨なテストプロンプトはすべて指示どおりに生成（3/3） |
+| Spicy 版で無修正の「画像から動画」を作りたい | 🌶️ [Seedance 2.5 Spicy](https://spicyapi.ai/ja/models/seedance-2-5-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ja)、🌶️ [Wan 2.7 Spicy](https://spicyapi.ai/ja/models/wan-2-7-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ja) または 🌶️ [Vidu Q3 Spicy](https://spicyapi.ai/ja/models/vidu-q3-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ja) | Freedom 96.7〜100。露骨なテストプロンプトはすべて指示どおりに生成（3/3） |
 | NSFW 動画を安く大量に作りたい | [Wan 2.6 Flash](https://spicyapi.ai/ja/models/wan-2-6-flash?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ja) または 🌶️ [Seedance 1.5 Pro Spicy](https://spicyapi.ai/ja/models/seedance-1-5-pro-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ja) | Freedom 100 / 96.7、720p で 5 秒 $0.11〜0.13 |
 | 無修正のテキストから画像モデル | [Qwen Image 2.1](https://spicyapi.ai/ja/models/qwen-image-2-1?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ja) | Spicy Index 73、Freedom 96.3、1 枚 $0.024 から。長いプロンプト、15 種類のアスペクト比 |
 | 自分のスタイルで画像を作りたい（アニメも含む） | [Qwen Image 2.1 LoRA](https://spicyapi.ai/ja/models/qwen-image-2-1-lora?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ja) または [MiniMax H3 Image LoRA](https://spicyapi.ai/ja/models/minimax-h3-image-lora?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ja) | 画像の Spicy Index で 1 位と 2 位（80.5 / 74.5）、Freedom 92 / 100 |
@@ -60,7 +60,7 @@
 | すべてローカルで無料で動かしたい | [ComfyUI](https://github.com/Comfy-Org/ComfyUI) + [Wan 2.2](https://github.com/Wan-Video/Wan2.2) のオープンウェイト | 高性能 GPU が必要（VRAM 24 GB あれば余裕） |
 | Claude Code / Cursor に生成させたい | [nsfw-ai-skill](https://github.com/Spicy-API/nsfw-ai-skill/blob/main/README.ja.md) または公式 [SpicyAPI MCP サーバー](https://docs.spicyapi.ai/docs/mcp?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr) | エージェントに自然な言葉で頼むだけで生成 |
 | コピペで使える画像プロンプトが欲しい | [nsfw-ai-image-prompts](https://github.com/Spicy-API/nsfw-ai-image-prompts/blob/main/README.ja.md) | Qwen Image 2.1、Seedream 5.0 などに対応した画像・編集プロンプト 104 本と、実際の出力例 72 件 |
-| コピペで使える動画プロンプトが欲しい | [nsfw-ai-video-prompts](https://github.com/Spicy-API/nsfw-ai-video-prompts/blob/main/README.ja.md) | すぐ使える動画プロンプト 116 本と、プロンプト付きの実際の出力例 130 件 |
+| コピペで使える動画プロンプトが欲しい | [nsfw-ai-video-prompts](https://github.com/Spicy-API/nsfw-ai-video-prompts/blob/main/README.ja.md) | すぐ使える動画プロンプト 116 本と、プロンプト付きの実際の出力例 128 件 |
 
 スコアは公開されている [SpicyAPI リーダーボード](https://spicyapi.ai/ja/leaderboards?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ja)のものです（評価方法 v2.1、テスト期間 2026-09-14〜2026-09-27。[モデルの評価方法](#このリストでのモデルの評価方法)を参照）。価格はカタログに載っているティアの価格です。解像度を上げる、音声を付ける、尺を長くすると料金は上がります。
 
@@ -116,7 +116,7 @@ SpicyAPI では、公開カタログのすべてのモデルにポリシーテ�
 
 このリストのおすすめは、宣伝文句ではなく、SpicyAPI が公開しているテスト結果にもとづいています。
 
-- **Freedom Score（0〜100）**：成人向けプロンプトが求める内容を、モデルがどれだけ確実に生成できるかを 5 つのレベルで測ります。L1 匂わせ、L2 部分的なヌード、L3 ヌード、L4 露骨な性描写、L5 過激（BDSM / ゴア）。各レベルは 20 点 × 合格率 × 信頼度で採点されるので、表現を弱めたり別の内容にすり替えたりした出力は減点されます。✅ 90 以上 · ◐ 70–89 · ⚠️ 70 未満 · 🧪 テスト実行がまだ 15 回未満（この場合、数字が低いのは拒否されたからではなく、テストで網羅できていないレベルがあるためです）。
+- **Freedom Score（0〜100）**：成人向けプロンプトが求める内容を、モデルがどれだけ確実に生成できるかを 5 つのレベルで測ります。L1 匂わせ、L2 部分的なヌード、L3 ヌード、L4 露骨な表現、L5 過激。各レベルは 20 点 × 合格率 × 信頼度で採点されるので、表現を弱めたり別の内容にすり替えたりした出力は減点されます。✅ 90 以上 · ◐ 70–89 · ⚠️ 70 未満 · 🧪 テスト実行がまだ 15 回未満（この場合、数字が低いのは拒否されたからではなく、テストで網羅できていないレベルがあるためです）。
 - **Spicy Index（0〜100）**：現時点では*暫定値*です。公開スペック（ネイティブ解像度、最長の尺、音声、入力の種類など）から算出する性能スコアです。アリーナでの画質投票はまだ反映されていないので、今のところ見た目の品質は測っていません。
 - **エンジニアリングによるルート検証**：モデルを掲載する前に、チームは上流のすべてのルートで露骨なテストケースを生成し、ダウンロードした出力を 1 フレームずつ確認します（プロバイダーによっては黙って安全な画像に差し替えることがあるため、「成功」ステータスだけでは不十分です）。一部のルートでしか露骨なコンテンツを生成できないモデルは、ここではおすすめしていません。
 
@@ -177,7 +177,7 @@ SpicyAPI のカタログと同じ順番です。人気の高い順に並べ、�
 
 - **総合力で選ぶなら Wan 3.0。** Spicy Index 76.5、Freedom 96、露骨 9/9、720p で 5 秒 $0.45、最大 30 秒。Wan 3.0 Pro と Pro Prime も露骨なプロンプトを生成できます（9/9）が、Freedom は低め（82）で、減点は主に過激レベル（L5）です。
 - **独自のスタイルやキャラクター：MiniMax H3 LoRA**（Index 75.2、Freedom 98.3、露骨 11/13）と **MiniMax H3 Singularity LoRA**（Index 72.8、Freedom 100、露骨 8/8）。
-- **成人向けに Seedance を使うなら：Seedance 2.5**（Index 69.5、Freedom 80.9、露骨 8/9）をテキストから動画と参照画像から動画に。露骨な画像から動画には 🌶️ **Seedance 2.5 Spicy** 版を使います（Freedom 96.7、露骨 3/3）。
+- **成人向けに Seedance を使うなら：Seedance 2.5**（Index 69.5、Freedom 80.9、露骨 8/9）をテキストから動画と参照画像から動画に。無修正の画像から動画には 🌶️ **Seedance 2.5 Spicy** 版を使います（Freedom 96.7、露骨 3/3）。
 - **いちばん許容度が高い：Wan 2.7 Spicy、Wan 2.6 Flash、MiniMax H3 Singularity LoRA**（Freedom 100）、**Wan 2.5**（99）。
 - **低予算：Wan 2.6 Flash**（5 秒 $0.11、Freedom 100）、🌶️ **Seedance 1.5 Pro Spicy**（$0.13、Freedom 96.7）、**MiniMax H3**（768p で 5 秒 $0.185。テスト動画 14 本すべてが指示どおりに生成されました。Freedom の数字が低いのは、まだテストしていないレベルがあるためです）。🌶️ Wan 2.2 Spicy と LTX 2.3 Spicy は $0.19 ですが、最上位のレベルで表現を弱めることが多めです。
 - **テストで露骨なプロンプトの表現を弱めるモデル**なので、同じシリーズの Spicy 版を使ってください：標準の Seedance 2.0（Freedom 70.4、露骨 1/9。性能スコアは動画モデルの中でいちばん高いので、匂わせ系の表現には最適です）、Seedance 2.0 Fast / Mini（68.2 / 64.9）、HappyHorse 1.1（65.1）、Wan 2.2（43.1）。
@@ -275,7 +275,7 @@ SpicyAPI のカタログと同じ順番です。人気の高い順に並べ、�
 
 ## 無検閲 LLM とロールプレイ
 
-NSFW の制作でテキストモデルが役立つ場面は 3 つあります。官能小説やインタラクティブストーリー、コンパニオン・ロールプレイアプリ、そして**画像・動画プロンプトの質を上げること**（1 行のアイデアを、カメラワークまで含めた詳しいプロンプトに LLM が膨らませる）です。
+NSFW の制作でテキストモデルが役立つ場面は 3 つあります。成人向け小説やインタラクティブストーリー、コンパニオン・ロールプレイアプリ、そして**画像・動画プロンプトの質を上げること**（1 行のアイデアを、カメラワークまで含めた詳しいプロンプトに LLM が膨らませる）です。
 
 ### ホスト型（OpenAI 互換）
 
@@ -283,13 +283,13 @@ SpicyAPI は `https://api.spicyapi.ai` で、OpenAI・Anthropic・Gemini 互換�
 
 | モデル | 価格（1K トークンあたり） | Freedom | 向いている用途 |
 |---|---|---|---|
-| [Grok 4.7](https://spicyapi.ai/ja/models/grok-4-7?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=llm-table-ja) | $0.0036 | ✅ 100（露骨 9/9） | 露骨な小説、個性のあるロールプレイ |
+| [Grok 4.7](https://spicyapi.ai/ja/models/grok-4-7?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=llm-table-ja) | $0.0036 | ✅ 100（露骨 9/9） | 成人向け小説、個性のあるロールプレイ |
 | [Grok 4.6](https://spicyapi.ai/ja/models/grok-4-6?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=llm-table-ja) / [Grok 4.5](https://spicyapi.ai/ja/models/grok-4-5?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=llm-table-ja) | $0.0036 | ✅ 100 | 4.7 と同じ挙動 |
 | [Grok 4.3](https://spicyapi.ai/ja/models/grok-4-3?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=llm-table-ja) | $0.0015 | ✅ 98.9 | コスパ最良：テキストの性能スコアが最も高く（74）、レイテンシの中央値は約 4 秒 |
-| [DeepSeek V4.1 Flash](https://spicyapi.ai/ja/models/deepseek-v4-1-flash?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=llm-table-ja) | $0.0012 | ✅ 90.4 | 安価なプロンプトの膨らませ。露骨な場面の表現を弱めることがある（7/16） |
+| [DeepSeek V4.1 Flash](https://spicyapi.ai/ja/models/deepseek-v4-1-flash?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=llm-table-ja) | $0.0012 | ✅ 90.4 | 安価なプロンプトの膨らませ。成人向けの場面の表現を弱めることがある（7/16） |
 | [DeepSeek V4 Pro](https://spicyapi.ai/ja/models/deepseek-v4-pro?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=llm-table-ja) | $0.00396 | ◐ 88.6 | 長編小説、推論 |
 
-テストはしたものの、露骨な文章にはおすすめしないモデル：Kimi K3（74.4）、GLM 5.x（63〜68）、Gemini（64〜89）、Claude の各モデル（47〜79）は、露骨な場面の表現を弱めたり拒否したりすることがよくあります。
+テストはしたものの、無修正の文章にはおすすめしないモデル：Kimi K3（74.4）、GLM 5.x（63〜68）、Gemini（64〜89）、Claude の各モデル（47〜79）は、成人向けの場面の表現を弱めたり拒否したりすることがよくあります。
 
 ```python
 from openai import OpenAI
@@ -488,7 +488,7 @@ Do you have a GPU with 16 GB+ VRAM and time to tinker?
     ├── No-code, in the browser → SpicyAPI Studio (uncensored image & video generator)
     └── Code or an AI agent
         ├── Best all-round video → Wan 3.0 (T2V / I2V / Ref2V, Freedom 96, $0.45 per 5 s)
-        ├── Explicit from a still → Seedance 2.5 Spicy, Wan 2.7 Spicy or Vidu Q3 Spicy
+        ├── Uncensored from a still → Seedance 2.5 Spicy, Wan 2.7 Spicy or Vidu Q3 Spicy
         ├── Custom style / character → MiniMax H3 LoRA / Singularity LoRA (video), Qwen Image 2.1 LoRA (stills)
         ├── Volume on a budget  → Wan 2.6 Flash or Seedance 1.5 Pro Spicy ($0.11–0.13 per 5 s)
         ├── Stills              → Qwen Image 2.1 (Qwen Image 2.1 LoRA for your own style)
@@ -506,7 +506,7 @@ Do you have a GPU with 16 GB+ VRAM and time to tinker?
 | AI コンパニオン・ロールプレイアプリ | チャットは Grok 4.7 か Grok 4.3 → 自撮り風画像は Qwen Image 2.1 → 短い動きは MiniMax H3 Spicy か Wan 3.0 |
 | 趣味でたくさん試したい | Wan 2.6 Flash か Seedance 1.5 Pro Spicy で何度も試し、気に入ったものだけ Wan 3.0 で作り直す |
 | アニメ・エロアニメ風コンテンツ | アニメ LoRA を付けた Qwen Image 2.1 LoRA → Vidu Q3 Spicy（Freedom 96.7）、または同じ LoRA を付けた Wan 2.2 Spicy LoRA |
-| 官能小説・インタラクティブストーリー | テキストは Grok 4.7、挿絵は Qwen Image 2.1 |
+| 成人向け小説・インタラクティブストーリー | テキストは Grok 4.7、挿絵は Qwen Image 2.1 |
 
 ---
 
@@ -527,7 +527,7 @@ SpicyAPI のルール全文：[コンテンツポリシー](https://spicyapi.ai/
 ## よくある質問
 
 ### 2026 年のおすすめ NSFW AI 動画生成ツールは？
-SpicyAPI の公開テストでは、総合力で選ぶなら **Wan 3.0** です。Spicy Index 76.5（動画モデル 37 本中 2 位）、Freedom Score 96、露骨なテストプロンプトはすべて指示どおりに生成（9/9）、最大 30 秒、720p で 5 秒 $0.45。露骨な画像から動画なら、Spicy 版の **Seedance 2.5 Spicy**、**Wan 2.7 Spicy**、**Vidu Q3 Spicy**（Freedom 96.7〜100）がいちばん確実です。自分のスタイルを使うなら **MiniMax H3 LoRA**。標準の Seedance 2.0 は性能スコアがいちばん高いものの、露骨なプロンプトの表現を弱めることがよくあります（Freedom 70.4）。結果：[SpicyAPI リーダーボード](https://spicyapi.ai/ja/leaderboards?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=faq-ja)。
+SpicyAPI の公開テストでは、総合力で選ぶなら **Wan 3.0** です。Spicy Index 76.5（動画モデル 37 本中 2 位）、Freedom Score 96、露骨なテストプロンプトはすべて指示どおりに生成（9/9）、最大 30 秒、720p で 5 秒 $0.45。無修正の画像から動画なら、Spicy 版の **Seedance 2.5 Spicy**、**Wan 2.7 Spicy**、**Vidu Q3 Spicy**（Freedom 96.7〜100）がいちばん確実です。自分のスタイルを使うなら **MiniMax H3 LoRA**。標準の Seedance 2.0 は性能スコアがいちばん高いものの、露骨なプロンプトの表現を弱めることがよくあります（Freedom 70.4）。結果：[SpicyAPI リーダーボード](https://spicyapi.ai/ja/leaderboards?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=faq-ja)。
 
 ### 無修正の AI 画像生成でおすすめは？
 ホスト型なら **Qwen Image 2.1**（Spicy Index 73、Freedom 96.3、1 枚 $0.024 から）。自分のスタイルを使うなら **Qwen Image 2.1 LoRA**（画像の Index で 1 位、80.5）と **MiniMax H3 Image LoRA**（Freedom 100）。有力な代替は **Seedream 5.0 Lite / Pro**、とにかく安く大量に作るなら **Z-Image Spicy**（$0.01235、Freedom 98.8）です。セルフホストなら、ComfyUI や Forge で SDXL、Pony、Illustrious のコミュニティチェックポイントを使います。

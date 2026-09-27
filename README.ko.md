@@ -52,7 +52,7 @@
 |---|---|---|
 | 전반적으로 가장 뛰어난 NSFW 영상 모델 | [Wan 3.0](https://spicyapi.ai/ko/models/wan-3-0?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ko) | Spicy Index 76.5(37개 중 2위), Freedom 96. 노골적 테스트 프롬프트를 모두 렌더링(9/9). T2V, I2V, 레퍼런스 투 비디오 최대 30초. 720p 5초당 $0.45 |
 | 나만의 스타일이나 캐릭터로 NSFW 영상 만들기 | [MiniMax H3 LoRA](https://spicyapi.ai/ko/models/minimax-h3-lora?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ko) 또는 [MiniMax H3 Singularity LoRA](https://spicyapi.ai/ko/models/minimax-h3-singularity-lora?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ko) | Spicy Index 75.2 / 72.8, Freedom 98.3 / 100 |
-| Spicy 에디션으로 노골적인 이미지 투 비디오 | 🌶️ [Seedance 2.5 Spicy](https://spicyapi.ai/ko/models/seedance-2-5-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ko), 🌶️ [Wan 2.7 Spicy](https://spicyapi.ai/ko/models/wan-2-7-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ko) 또는 🌶️ [Vidu Q3 Spicy](https://spicyapi.ai/ko/models/vidu-q3-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ko) | Freedom 96.7–100, 노골적 테스트 프롬프트를 모두 렌더링(3/3) |
+| Spicy 에디션으로 무검열 이미지 투 비디오 | 🌶️ [Seedance 2.5 Spicy](https://spicyapi.ai/ko/models/seedance-2-5-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ko), 🌶️ [Wan 2.7 Spicy](https://spicyapi.ai/ko/models/wan-2-7-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ko) 또는 🌶️ [Vidu Q3 Spicy](https://spicyapi.ai/ko/models/vidu-q3-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ko) | Freedom 96.7–100, 노골적 테스트 프롬프트를 모두 렌더링(3/3) |
 | NSFW 영상을 저렴하게 대량으로 만들기 | [Wan 2.6 Flash](https://spicyapi.ai/ko/models/wan-2-6-flash?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ko) 또는 🌶️ [Seedance 1.5 Pro Spicy](https://spicyapi.ai/ko/models/seedance-1-5-pro-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ko) | 5초당 $0.11–0.13(720p)에 Freedom 100 / 96.7 |
 | 무검열 텍스트 투 이미지 모델 | [Qwen Image 2.1](https://spicyapi.ai/ko/models/qwen-image-2-1?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ko) | Spicy Index 73, Freedom 96.3, 이미지당 $0.024부터. 긴 프롬프트, 15가지 화면비 |
 | 나만의 스타일로 이미지 만들기 (애니 포함) | [Qwen Image 2.1 LoRA](https://spicyapi.ai/ko/models/qwen-image-2-1-lora?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ko) 또는 [MiniMax H3 Image LoRA](https://spicyapi.ai/ko/models/minimax-h3-image-lora?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ko) | 이미지 Spicy Index 1위와 2위(80.5 / 74.5), Freedom 92 / 100 |
@@ -61,7 +61,7 @@
 | 전부 로컬에서 무료로 돌리기 | [ComfyUI](https://github.com/Comfy-Org/ComfyUI) + [Wan 2.2](https://github.com/Wan-Video/Wan2.2) 오픈 웨이트 | 고성능 GPU 필요 (VRAM 24 GB면 여유 있음) |
 | Claude Code / Cursor가 대신 생성하게 하기 | [nsfw-ai-skill](https://github.com/Spicy-API/nsfw-ai-skill/blob/main/README.ko.md) 또는 공식 [SpicyAPI MCP 서버](https://docs.spicyapi.ai/docs/mcp?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr) | 에이전트에서 자연어로 생성 |
 | 복사해서 바로 쓰는 이미지 프롬프트 | [nsfw-ai-image-prompts](https://github.com/Spicy-API/nsfw-ai-image-prompts/blob/main/README.ko.md) | Qwen Image 2.1, Seedream 5.0 등을 위한 이미지·편집 프롬프트 104개와 실제 결과물 사례 72개 |
-| 복사해서 바로 쓰는 영상 프롬프트 | [nsfw-ai-video-prompts](https://github.com/Spicy-API/nsfw-ai-video-prompts/blob/main/README.ko.md) | 바로 쓸 수 있는 영상 프롬프트 116개와 프롬프트가 포함된 실제 결과물 사례 130개 |
+| 복사해서 바로 쓰는 영상 프롬프트 | [nsfw-ai-video-prompts](https://github.com/Spicy-API/nsfw-ai-video-prompts/blob/main/README.ko.md) | 바로 쓸 수 있는 영상 프롬프트 116개와 프롬프트가 포함된 실제 결과물 사례 128개 |
 
 점수는 공개된 [SpicyAPI 리더보드](https://spicyapi.ai/ko/leaderboards?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr-ko)에서 가져왔습니다(방법론 v2.1, 2026-09-14부터 2026-09-27까지 실시한 테스트. [모델 평가 방식](#이-목록의-모델-평가-방식) 참고). 가격은 카탈로그에 올라온 등급 기준이며, 해상도가 높거나, 오디오가 있거나, 클립이 길면 더 비쌉니다.
 
@@ -116,7 +116,7 @@ SpicyAPI 공개 카탈로그의 모든 모델에는 정책 등급(`unrestricted`
 
 이 목록의 추천은 마케팅 문구가 아니라 SpicyAPI가 공개한 테스트 결과를 따릅니다.
 
-- **Freedom Score (0–100)**: 성인용 프롬프트가 요구한 내용을 모델이 얼마나 안정적으로 렌더링하는지를 다섯 단계에 걸쳐 측정합니다. L1 암시적 표현, L2 부분 노출, L3 노출, L4 노골적 표현, L5 극단적 표현(BDSM / 고어). 단계마다 20점 × 통과율 × 신뢰도로 점수를 매기므로, 순화되거나 다른 이미지로 바꿔치기된 결과물은 점수가 깎입니다. ✅ 90 이상 · ◐ 70–89 · ⚠️ 70 미만 · 🧪 지금까지 테스트 실행이 15회 미만이므로, 낮은 숫자는 거부가 아니라 테스트 범위가 부족하다는 뜻입니다.
+- **Freedom Score (0–100)**: 성인용 프롬프트가 요구한 내용을 모델이 얼마나 안정적으로 렌더링하는지를 다섯 단계에 걸쳐 측정합니다. L1 암시적 표현, L2 부분 노출, L3 노출, L4 노골적 표현, L5 극단적 표현. 단계마다 20점 × 통과율 × 신뢰도로 점수를 매기므로, 순화되거나 다른 이미지로 바꿔치기된 결과물은 점수가 깎입니다. ✅ 90 이상 · ◐ 70–89 · ⚠️ 70 미만 · 🧪 지금까지 테스트 실행이 15회 미만이므로, 낮은 숫자는 거부가 아니라 테스트 범위가 부족하다는 뜻입니다.
 - **Spicy Index (0–100)**: 현재는 *잠정* 점수로, 공개 사양(네이티브 해상도, 최장 클립 길이, 오디오, 입력 방식 등)을 바탕으로 한 성능 점수입니다. 아레나 품질 투표가 아직 반영되지 않아 시각적 품질은 아직 측정하지 않습니다.
 - **엔지니어링 경로 점검**: 모델을 목록에 올리기 전에 팀이 모든 업스트림 경로에서 노골적인 테스트 케이스를 생성하고, 다운로드한 결과물을 프레임 단위로 검사합니다(일부 제공업체는 안전한 이미지로 몰래 바꿔 보내기 때문에 "성공" 상태만으로는 부족합니다). 일부 경로에서만 노골적인 콘텐츠를 렌더링하는 모델은 여기서 추천하지 않습니다.
 
@@ -177,7 +177,7 @@ SpicyAPI 카탈로그와 같은 순서입니다. 인기순이며, 같은 계열 
 
 - **전반적 최고: Wan 3.0.** Spicy Index 76.5, Freedom 96, 노골적 9/9, 720p 5초당 $0.45, 최대 30초 클립. Wan 3.0 Pro와 Pro Prime도 노골적 프롬프트를 렌더링하지만(9/9) Freedom 점수는 더 낮으며(82), 대부분 극단적 단계(L5)에서 점수가 깎였습니다.
 - **커스텀 스타일과 캐릭터: MiniMax H3 LoRA**(Index 75.2, Freedom 98.3, 노골적 11/13)와 **MiniMax H3 Singularity LoRA**(Index 72.8, Freedom 100, 노골적 8/8).
-- **성인 콘텐츠용 Seedance: Seedance 2.5**(Index 69.5, Freedom 80.9, 노골적 8/9)는 텍스트 투 비디오와 레퍼런스 투 비디오용입니다. 노골적인 이미지 투 비디오에는 🌶️ **Seedance 2.5 Spicy** 에디션을 쓰세요(Freedom 96.7, 노골적 3/3).
+- **성인 콘텐츠용 Seedance: Seedance 2.5**(Index 69.5, Freedom 80.9, 노골적 8/9)는 텍스트 투 비디오와 레퍼런스 투 비디오용입니다. 무검열 이미지 투 비디오에는 🌶️ **Seedance 2.5 Spicy** 에디션을 쓰세요(Freedom 96.7, 노골적 3/3).
 - **가장 허용적인 모델: Wan 2.7 Spicy, Wan 2.6 Flash, MiniMax H3 Singularity LoRA**(Freedom 100), **Wan 2.5**(99).
 - **저예산: Wan 2.6 Flash**(5초당 $0.11, Freedom 100), 🌶️ **Seedance 1.5 Pro Spicy**($0.13, Freedom 96.7), **MiniMax H3**(768p 5초당 $0.185. 테스트 클립 14개가 모두 요청대로 나왔으며, Freedom 수치가 낮은 것은 아직 테스트하지 않은 단계가 있기 때문일 뿐입니다). 🌶️ Wan 2.2 Spicy와 LTX 2.3 Spicy는 $0.19이지만 최상위 단계를 순화하는 경우가 더 잦습니다.
 - **테스트에서 노골적 프롬프트를 순화한 모델:** 같은 계열의 Spicy 에디션을 대신 쓰세요. 표준 Seedance 2.0(Freedom 70.4, 노골적 1/9. 영상 모델 중 성능 점수가 가장 높아서 암시적인 수위의 작업에는 매우 좋습니다), Seedance 2.0 Fast / Mini(68.2 / 64.9), HappyHorse 1.1(65.1), Wan 2.2(43.1).
@@ -283,13 +283,13 @@ SpicyAPI는 `https://api.spicyapi.ai`에서 OpenAI, Anthropic, Gemini 호환 엔
 
 | 모델 | 가격 (1K 토큰당) | Freedom | 용도 |
 |---|---|---|---|
-| [Grok 4.7](https://spicyapi.ai/ko/models/grok-4-7?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=llm-table-ko) | $0.0036 | ✅ 100 (노골적 9/9) | 노골적인 소설, 개성 있는 롤플레이 |
+| [Grok 4.7](https://spicyapi.ai/ko/models/grok-4-7?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=llm-table-ko) | $0.0036 | ✅ 100 (노골적 9/9) | 성인 소설, 개성 있는 롤플레이 |
 | [Grok 4.6](https://spicyapi.ai/ko/models/grok-4-6?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=llm-table-ko) / [Grok 4.5](https://spicyapi.ai/ko/models/grok-4-5?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=llm-table-ko) | $0.0036 | ✅ 100 | 4.7과 같은 동작 |
 | [Grok 4.3](https://spicyapi.ai/ko/models/grok-4-3?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=llm-table-ko) | $0.0015 | ✅ 98.9 | 가성비 최고: 텍스트 성능 점수 최고(74), 중앙값 지연 시간 약 4초 |
-| [DeepSeek V4.1 Flash](https://spicyapi.ai/ko/models/deepseek-v4-1-flash?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=llm-table-ko) | $0.0012 | ✅ 90.4 | 저렴한 프롬프트 확장. 노골적 장면을 가끔 순화함(7/16) |
+| [DeepSeek V4.1 Flash](https://spicyapi.ai/ko/models/deepseek-v4-1-flash?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=llm-table-ko) | $0.0012 | ✅ 90.4 | 저렴한 프롬프트 확장. 성인 장면을 가끔 순화함(7/16) |
 | [DeepSeek V4 Pro](https://spicyapi.ai/ko/models/deepseek-v4-pro?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=llm-table-ko) | $0.00396 | ◐ 88.6 | 장편 소설, 추론 |
 
-테스트했지만 노골적인 글쓰기에는 비추천: Kimi K3(74.4), GLM 5.x(63–68), Gemini(64–89), Claude 모델(47–79)은 노골적 장면을 순화하거나 거부하는 경우가 많습니다.
+테스트했지만 무검열 글쓰기에는 비추천: Kimi K3(74.4), GLM 5.x(63–68), Gemini(64–89), Claude 모델(47–79)은 성인 장면을 순화하거나 거부하는 경우가 많습니다.
 
 ```python
 from openai import OpenAI
@@ -486,7 +486,7 @@ Do you have a GPU with 16 GB+ VRAM and time to tinker?
     ├── No-code, in the browser → SpicyAPI Studio (uncensored image & video generator)
     └── Code or an AI agent
         ├── Best all-round video → Wan 3.0 (T2V / I2V / Ref2V, Freedom 96, $0.45 per 5 s)
-        ├── Explicit from a still → Seedance 2.5 Spicy, Wan 2.7 Spicy or Vidu Q3 Spicy
+        ├── Uncensored from a still → Seedance 2.5 Spicy, Wan 2.7 Spicy or Vidu Q3 Spicy
         ├── Custom style / character → MiniMax H3 LoRA / Singularity LoRA (video), Qwen Image 2.1 LoRA (stills)
         ├── Volume on a budget  → Wan 2.6 Flash or Seedance 1.5 Pro Spicy ($0.11–0.13 per 5 s)
         ├── Stills              → Qwen Image 2.1 (Qwen Image 2.1 LoRA for your own style)
@@ -523,7 +523,7 @@ SpicyAPI 전체 규칙: [콘텐츠 정책](https://spicyapi.ai/ko/legal/content-
 ## 자주 묻는 질문 (FAQ)
 
 ### 2026년 최고의 NSFW AI 영상 생성기는?
-SpicyAPI 공개 테스트 기준으로 전반적으로 가장 좋은 선택은 **Wan 3.0**입니다. Spicy Index 76.5(영상 모델 37개 중 2위), Freedom Score 96, 노골적 테스트 프롬프트를 모두 렌더링(9/9), 최대 30초 클립, 720p 5초당 $0.45입니다. 노골적인 이미지 투 비디오에는 Spicy 에디션인 **Seedance 2.5 Spicy**, **Wan 2.7 Spicy**, **Vidu Q3 Spicy**(Freedom 96.7–100)가 가장 확실하고, 나만의 스타일에는 **MiniMax H3 LoRA**가 좋습니다. 표준 Seedance 2.0은 성능 점수가 가장 높지만 노골적 프롬프트를 자주 순화합니다(Freedom 70.4). 결과: [SpicyAPI 리더보드](https://spicyapi.ai/ko/leaderboards?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=faq-ko).
+SpicyAPI 공개 테스트 기준으로 전반적으로 가장 좋은 선택은 **Wan 3.0**입니다. Spicy Index 76.5(영상 모델 37개 중 2위), Freedom Score 96, 노골적 테스트 프롬프트를 모두 렌더링(9/9), 최대 30초 클립, 720p 5초당 $0.45입니다. 무검열 이미지 투 비디오에는 Spicy 에디션인 **Seedance 2.5 Spicy**, **Wan 2.7 Spicy**, **Vidu Q3 Spicy**(Freedom 96.7–100)가 가장 확실하고, 나만의 스타일에는 **MiniMax H3 LoRA**가 좋습니다. 표준 Seedance 2.0은 성능 점수가 가장 높지만 노골적 프롬프트를 자주 순화합니다(Freedom 70.4). 결과: [SpicyAPI 리더보드](https://spicyapi.ai/ko/leaderboards?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=faq-ko).
 
 ### 가장 좋은 무검열 AI 이미지 생성기는?
 호스팅형으로는 **Qwen Image 2.1**(Spicy Index 73, Freedom 96.3, 이미지당 $0.024부터), 나만의 스타일에는 **Qwen Image 2.1 LoRA**(이미지 인덱스 1위, 80.5)와 **MiniMax H3 Image LoRA**(Freedom 100), 강력한 대안으로는 **Seedream 5.0 Lite / Pro**, 가장 저렴하게 대량으로 만들 때는 **Z-Image Spicy**($0.01235, Freedom 98.8)가 좋습니다. 셀프 호스팅으로는 ComfyUI나 Forge에서 SDXL, Pony, Illustrious 커뮤니티 체크포인트를 쓰면 됩니다.
