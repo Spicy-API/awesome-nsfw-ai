@@ -18,6 +18,14 @@
 </p>
 
 <p align="center">
+  <img src="assets/wolf-turn-and-look-back.gif" width="24%" alt="Wan 2.2 Spicy image-to-video output">
+  <img src="assets/velvet-spiral-turn.gif" width="24%" alt="Seedance 2.0 Spicy image-to-video output">
+  <img src="assets/silk-draught-pull.gif" width="24%" alt="Wan 2.7 Spicy image-to-video output">
+  <img src="assets/hotel-window-turn.gif" width="24%" alt="Seedance 2.5 Spicy image-to-video output">
+  <br><sub>Real outputs from Wan 2.2 Spicy, Seedance 2.0 Spicy, Wan 2.7 Spicy and Seedance 2.5 Spicy. More, with exact prompts, in <a href="https://github.com/Spicy-API/nsfw-ai-video-prompts#showcase-real-outputs-and-exact-requests">nsfw-ai-video-prompts</a>.</sub>
+</p>
+
+<p align="center">
   <a href="#uncensored-ai-video-generators">Video</a> ·
   <a href="#uncensored-ai-image-generators">Image</a> ·
   <a href="#nsfw-ai-image-editors-and-face-tools">Editing</a> ·
@@ -46,7 +54,7 @@
 | An uncensored AI image editor | 🌶️ [Qwen Image Edit Spicy](https://spicyapi.ai/models/qwen-image-spicy-edit?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr) | One image + one instruction, no mask needed |
 | Run everything locally, free | [ComfyUI](https://github.com/Comfy-Org/ComfyUI) + [Wan 2.2](https://github.com/Wan-Video/Wan2.2) open weights | Needs a strong GPU (24 GB VRAM is comfortable) |
 | Let Claude Code / Cursor generate for me | [nsfw-ai-skill](https://github.com/Spicy-API/nsfw-ai-skill) or the official [SpicyAPI MCP server](https://docs.spicyapi.ai/docs/mcp?utm_source=github&utm_medium=repo&utm_campaign=2026-09-awesome-nsfw-ai&utm_content=tldr) | Natural-language generation from your agent |
-| Copy-paste prompts that work | [nsfw-ai-video-prompts](https://github.com/Spicy-API/nsfw-ai-video-prompts) | 100+ ready-to-use video prompts plus verified examples with real outputs |
+| Copy-paste prompts that work | [nsfw-ai-video-prompts](https://github.com/Spicy-API/nsfw-ai-video-prompts) | 116 ready-to-use video prompts plus 77 showcase examples with real outputs and exact requests |
 
 Prices are the lowest listed tier in the SpicyAPI public catalog on 2026-09-27. Higher resolutions, audio and longer clips cost more; check the model page before you run a job.
 
