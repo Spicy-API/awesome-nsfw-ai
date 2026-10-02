@@ -4,7 +4,7 @@
   nsfw ai api, best nsfw ai image generator 2026, wan 2.2 spicy, seedance spicy, nsfw ai skill, nsfw mcp
 -->
 
-<p align="center"><b>English</b> · <a href="README.ja.md">日本語</a> · <a href="README.ko.md">한국어</a> · <a href="README.fr.md">Français</a> · <a href="README.es.md">Español</a></p>
+<p align="center"><b>English</b> · <a href="README.ja.md">日本語</a> · <a href="README.ko.md">한국어</a> · <a href="README.fr.md">Français</a> · <a href="README.es.md">Español</a> · <a href="README.ru.md">Русский</a></p>
 
 <h1 align="center">Awesome NSFW AI</h1>
 

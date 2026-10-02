@@ -6,7 +6,7 @@
   nsfw image to video, uncensored llm, nsfw ai api, wan 2.2 spicy, seedance spicy, nsfw ai skill, nsfw mcp
 -->
 
-<p align="center"><a href="README.md">English</a> · <a href="README.ja.md">日本語</a> · <b>한국어</b> · <a href="README.fr.md">Français</a> · <a href="README.es.md">Español</a></p>
+<p align="center"><a href="README.md">English</a> · <a href="README.ja.md">日本語</a> · <b>한국어</b> · <a href="README.fr.md">Français</a> · <a href="README.es.md">Español</a> · <a href="README.ru.md">Русский</a></p>
 
 <h1 align="center">Awesome NSFW AI</h1>
 
